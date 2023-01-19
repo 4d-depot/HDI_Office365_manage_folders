@@ -1,0 +1,2789 @@
+431	2020-07-20T16:03:44.561	1	12	### IMAP Connected to 'exchange.4d.com' on port 143. (unsecured)
+432	2020-07-20T16:03:44.561	1	12	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+433	2020-07-20T16:03:44.562	1	12	C > "A001 CAPABILITY"
+434	2020-07-20T16:03:44.565	1	12	S < "* CAPABILITY IMAP4 IMAP4rev1 LOGINDISABLED STARTTLS AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+435	2020-07-20T16:03:44.565	1	12	S < "A001 OK CAPABILITY completed."
+436	2020-07-20T16:03:44.565	1	12	C > "A002 STARTTLS"
+437	2020-07-20T16:03:44.568	1	12	S < "A002 OK Begin TLS negotiation now."
+438	2020-07-20T16:03:44.568	1	12	### IMAP Encrypted TLS session started.
+439	2020-07-20T16:03:44.605	1	12	C > "A003 CAPABILITY"
+440	2020-07-20T16:03:44.608	1	12	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+441	2020-07-20T16:03:44.608	1	12	S < "A003 OK CAPABILITY completed."
+442	2020-07-20T16:03:44.608	1	12	C > "A004 AUTHENTICATE PLAIN"
+443	2020-07-20T16:03:44.611	1	12	S < "+ "
+444	2020-07-20T16:03:44.611	1	12	C > "************************************************"
+445	2020-07-20T16:03:44.757	1	12	S < "A004 OK AUTHENTICATE completed."
+446	2020-07-20T16:03:44.758	1	12	C > "A005 LIST "" "*""
+447	2020-07-20T16:03:44.839	1	12	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+448	2020-07-20T16:03:44.839	1	12	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+449	2020-07-20T16:03:44.839	1	12	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+450	2020-07-20T16:03:44.839	1	12	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+451	2020-07-20T16:03:44.840	1	12	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+452	2020-07-20T16:03:44.840	1	12	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+453	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+454	2020-07-20T16:03:44.840	1	12	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+455	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+456	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasChildren) "/" Divers"
+457	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+458	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+459	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Divers/Entretien"
+460	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+461	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasChildren) "/" Divers/test1"
+462	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+463	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+464	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasChildren) "/" Divers/VPN"
+465	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+466	2020-07-20T16:03:44.840	1	12	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+467	2020-07-20T16:03:44.840	1	12	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+468	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+469	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Journal"
+470	2020-07-20T16:03:44.840	1	12	S < "* LIST (\HasNoChildren) "/" Notes"
+471	2020-07-20T16:03:44.841	1	12	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+472	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+473	2020-07-20T16:03:44.841	1	12	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+474	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+475	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+476	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasChildren) "/" Projets"
+477	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+478	2020-07-20T16:03:44.841	1	12	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+479	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" Projets/Blog"
+480	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+481	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+482	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+483	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+484	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+485	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+486	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+487	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+488	2020-07-20T16:03:44.841	1	12	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+489	2020-07-20T16:03:44.841	1	12	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+490	2020-07-20T16:03:44.842	1	12	S < "* LIST (\HasNoChildren) "/" Twitter"
+491	2020-07-20T16:03:44.842	1	12	S < "* LIST (\HasNoChildren) "/" WordPress"
+492	2020-07-20T16:03:44.842	1	12	S < "A005 OK LIST completed."
+493	2020-07-20T16:03:44.846	1	12	C > "A006 STATUS "4D Workplace" (MESSAGES RECENT)"
+494	2020-07-20T16:03:44.853	1	12	S < "* STATUS "4D Workplace" (MESSAGES 0 RECENT 0) "
+495	2020-07-20T16:03:44.854	1	12	S < "A006 OK STATUS completed."
+496	2020-07-20T16:03:44.855	1	12	C > "A007 STATUS "Abonnements RSS" (MESSAGES RECENT)"
+497	2020-07-20T16:03:44.890	1	12	S < "* STATUS "Abonnements RSS" (MESSAGES 0 RECENT 0) "
+498	2020-07-20T16:03:44.891	1	12	S < "A007 OK STATUS completed."
+499	2020-07-20T16:03:44.891	1	12	C > "A008 STATUS INBOX (MESSAGES RECENT)"
+500	2020-07-20T16:03:45.336	1	12	S < "* STATUS INBOX (MESSAGES 17510 RECENT 1) "
+501	2020-07-20T16:03:45.336	1	12	S < "A008 OK STATUS completed."
+502	2020-07-20T16:03:45.337	1	12	C > "A009 STATUS "Bo&AO4-te d'envoi" (MESSAGES RECENT)"
+503	2020-07-20T16:03:45.344	1	12	S < "* STATUS "Bo&AO4-te d'envoi" (MESSAGES 1 RECENT 0) "
+504	2020-07-20T16:03:45.344	1	12	S < "A009 OK STATUS completed."
+505	2020-07-20T16:03:45.345	1	12	C > "A010 STATUS Brouillons (MESSAGES RECENT)"
+506	2020-07-20T16:03:45.351	1	12	S < "* STATUS Brouillons (MESSAGES 0 RECENT 0) "
+507	2020-07-20T16:03:45.351	1	12	S < "A010 OK STATUS completed."
+508	2020-07-20T16:03:45.352	1	12	C > "A011 STATUS Calendrier (MESSAGES RECENT)"
+509	2020-07-20T16:03:45.421	1	12	S < "* STATUS Calendrier (MESSAGES 1115 RECENT 16) "
+510	2020-07-20T16:03:45.421	1	12	S < "A011 OK STATUS completed."
+511	2020-07-20T16:03:45.422	1	12	C > "A012 STATUS Calendrier/Anniversaires (MESSAGES RECENT)"
+512	2020-07-20T16:03:45.429	1	12	S < "* STATUS Calendrier/Anniversaires (MESSAGES 0 RECENT 0) "
+513	2020-07-20T16:03:45.429	1	12	S < "A012 OK STATUS completed."
+514	2020-07-20T16:03:45.430	1	12	C > "A013 STATUS Contacts (MESSAGES RECENT)"
+515	2020-07-20T16:03:45.437	1	12	S < "* STATUS Contacts (MESSAGES 0 RECENT 0) "
+516	2020-07-20T16:03:45.437	1	12	S < "A013 OK STATUS completed."
+517	2020-07-20T16:03:45.441	1	12	C > "A014 STATUS "Courrier ind&AOk-sirable" (MESSAGES RECENT)"
+518	2020-07-20T16:03:45.445	1	12	S < "* STATUS "Courrier ind&AOk-sirable" (MESSAGES 0 RECENT 0) "
+519	2020-07-20T16:03:45.445	1	12	S < "A014 OK STATUS completed."
+520	2020-07-20T16:03:45.445	1	12	C > "A015 STATUS Divers (MESSAGES RECENT)"
+521	2020-07-20T16:03:45.454	1	12	S < "* STATUS Divers (MESSAGES 30 RECENT 0) "
+522	2020-07-20T16:03:45.454	1	12	S < "A015 OK STATUS completed."
+523	2020-07-20T16:03:45.455	1	12	C > "A016 STATUS Divers/CIR (MESSAGES RECENT)"
+524	2020-07-20T16:03:45.463	1	12	S < "* STATUS Divers/CIR (MESSAGES 7 RECENT 0) "
+525	2020-07-20T16:03:45.463	1	12	S < "A016 OK STATUS completed."
+526	2020-07-20T16:03:45.464	1	12	C > "A017 STATUS "Divers/Code exemple" (MESSAGES RECENT)"
+527	2020-07-20T16:03:45.471	1	12	S < "* STATUS "Divers/Code exemple" (MESSAGES 1 RECENT 0) "
+528	2020-07-20T16:03:45.471	1	12	S < "A017 OK STATUS completed."
+529	2020-07-20T16:03:45.471	1	12	C > "A018 STATUS Divers/Entretien (MESSAGES RECENT)"
+530	2020-07-20T16:03:45.480	1	12	S < "* STATUS Divers/Entretien (MESSAGES 5 RECENT 5) "
+531	2020-07-20T16:03:45.480	1	12	S < "A018 OK STATUS completed."
+532	2020-07-20T16:03:45.481	1	12	C > "A019 STATUS Divers/Priv&AOk- (MESSAGES RECENT)"
+533	2020-07-20T16:03:45.489	1	12	S < "* STATUS Divers/Priv&AOk- (MESSAGES 1 RECENT 1) "
+534	2020-07-20T16:03:45.489	1	12	S < "A019 OK STATUS completed."
+535	2020-07-20T16:03:45.489	1	12	C > "A020 STATUS Divers/test1 (MESSAGES RECENT)"
+536	2020-07-20T16:03:45.496	1	12	S < "* STATUS Divers/test1 (MESSAGES 0 RECENT 0) "
+537	2020-07-20T16:03:45.496	1	12	S < "A020 OK STATUS completed."
+538	2020-07-20T16:03:45.496	1	12	C > "A021 STATUS Divers/test1/test2 (MESSAGES RECENT)"
+539	2020-07-20T16:03:45.502	1	12	S < "* STATUS Divers/test1/test2 (MESSAGES 0 RECENT 0) "
+540	2020-07-20T16:03:45.502	1	12	S < "A021 OK STATUS completed."
+541	2020-07-20T16:03:45.503	1	12	C > "A022 STATUS Divers/test1/test2/test3 (MESSAGES RECENT)"
+542	2020-07-20T16:03:45.511	1	12	S < "* STATUS Divers/test1/test2/test3 (MESSAGES 2 RECENT 0) "
+543	2020-07-20T16:03:45.511	1	12	S < "A022 OK STATUS completed."
+544	2020-07-20T16:03:45.512	1	12	C > "A023 STATUS Divers/VPN (MESSAGES RECENT)"
+545	2020-07-20T16:03:45.521	1	12	S < "* STATUS Divers/VPN (MESSAGES 11 RECENT 0) "
+546	2020-07-20T16:03:45.521	1	12	S < "A023 OK STATUS completed."
+547	2020-07-20T16:03:45.521	1	12	C > "A024 STATUS "Divers/VPN/test inferior" (MESSAGES RECENT)"
+548	2020-07-20T16:03:45.528	1	12	S < "* STATUS "Divers/VPN/test inferior" (MESSAGES 0 RECENT 0) "
+549	2020-07-20T16:03:45.528	1	12	S < "A024 OK STATUS completed."
+550	2020-07-20T16:03:45.529	1	12	C > "A025 STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES RECENT)"
+551	2020-07-20T16:03:45.663	1	12	S < "* STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES 3717 RECENT 56) "
+552	2020-07-20T16:03:45.663	1	12	S < "A025 OK STATUS completed."
+553	2020-07-20T16:03:45.664	1	12	C > "A026 STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES RECENT)"
+554	2020-07-20T16:03:45.679	1	12	S < "* STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES 248 RECENT 246) "
+555	2020-07-20T16:03:45.680	1	12	S < "A026 OK STATUS completed."
+556	2020-07-20T16:03:45.681	1	12	C > "A027 STATUS "Forum4D " (MESSAGES RECENT)"
+557	2020-07-20T16:03:45.688	1	12	S < "* STATUS "Forum4D " (MESSAGES 14 RECENT 0) "
+558	2020-07-20T16:03:45.688	1	12	S < "A027 OK STATUS completed."
+559	2020-07-20T16:03:45.689	1	12	C > "A028 STATUS Journal (MESSAGES RECENT)"
+560	2020-07-20T16:03:45.695	1	12	S < "* STATUS Journal (MESSAGES 0 RECENT 0) "
+561	2020-07-20T16:03:45.695	1	12	S < "A028 OK STATUS completed."
+562	2020-07-20T16:03:45.696	1	12	C > "A029 STATUS Notes (MESSAGES RECENT)"
+563	2020-07-20T16:03:45.707	1	12	S < "* STATUS Notes (MESSAGES 4 RECENT 0) "
+564	2020-07-20T16:03:45.707	1	12	S < "A029 OK STATUS completed."
+565	2020-07-20T16:03:45.708	1	12	C > "A030 STATUS "Perforce review" (MESSAGES RECENT)"
+566	2020-07-20T16:03:45.725	1	12	S < "* STATUS "Perforce review" (MESSAGES 372 RECENT 25) "
+567	2020-07-20T16:03:45.726	1	12	S < "A030 OK STATUS completed."
+568	2020-07-20T16:03:45.726	1	12	C > "A031 STATUS "Probl&AOg-mes de synchronisation" (MESSAGES RECENT)"
+569	2020-07-20T16:03:45.733	1	12	S < "* STATUS "Probl&AOg-mes de synchronisation" (MESSAGES 0 RECENT 0) "
+570	2020-07-20T16:03:45.733	1	12	S < "A031 OK STATUS completed."
+571	2020-07-20T16:03:45.734	1	12	C > "A032 STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES RECENT)"
+572	2020-07-20T16:03:45.755	1	12	S < "* STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES 178 RECENT 51) "
+573	2020-07-20T16:03:45.755	1	12	S < "A032 OK STATUS completed."
+574	2020-07-20T16:03:45.756	1	12	C > "A033 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES RECENT)"
+575	2020-07-20T16:03:45.764	1	12	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES 0 RECENT 0) "
+576	2020-07-20T16:03:45.764	1	12	S < "A033 OK STATUS completed."
+577	2020-07-20T16:03:45.765	1	12	C > "A034 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES RECENT)"
+578	2020-07-20T16:03:45.805	1	12	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES 0 RECENT 0) "
+579	2020-07-20T16:03:45.805	1	12	S < "A034 OK STATUS completed."
+580	2020-07-20T16:03:45.807	1	12	C > "A035 STATUS Projets (MESSAGES RECENT)"
+581	2020-07-20T16:03:45.815	1	12	S < "* STATUS Projets (MESSAGES 0 RECENT 0) "
+582	2020-07-20T16:03:45.815	1	12	S < "A035 OK STATUS completed."
+583	2020-07-20T16:03:45.816	1	12	C > "A036 STATUS "Projets/4D pack" (MESSAGES RECENT)"
+584	2020-07-20T16:03:45.825	1	12	S < "* STATUS "Projets/4D pack" (MESSAGES 6 RECENT 0) "
+585	2020-07-20T16:03:45.825	1	12	S < "A036 OK STATUS completed."
+586	2020-07-20T16:03:45.826	1	12	C > "A037 STATUS "Projets/4D View - Spread JS" (MESSAGES RECENT)"
+587	2020-07-20T16:03:45.835	1	12	S < "* STATUS "Projets/4D View - Spread JS" (MESSAGES 37 RECENT 1) "
+588	2020-07-20T16:03:45.835	1	12	S < "A037 OK STATUS completed."
+589	2020-07-20T16:03:45.836	1	12	C > "A038 STATUS Projets/Blog (MESSAGES RECENT)"
+590	2020-07-20T16:03:45.845	1	12	S < "* STATUS Projets/Blog (MESSAGES 28 RECENT 0) "
+591	2020-07-20T16:03:45.845	1	12	S < "A038 OK STATUS completed."
+592	2020-07-20T16:03:45.846	1	12	C > "A039 STATUS Projets/Demo (MESSAGES RECENT)"
+593	2020-07-20T16:03:45.854	1	12	S < "* STATUS Projets/Demo (MESSAGES 5 RECENT 0) "
+594	2020-07-20T16:03:45.855	1	12	S < "A039 OK STATUS completed."
+595	2020-07-20T16:03:45.855	1	12	C > "A040 STATUS Projets/Divers (MESSAGES RECENT)"
+596	2020-07-20T16:03:45.869	1	12	S < "* STATUS Projets/Divers (MESSAGES 2 RECENT 2) "
+597	2020-07-20T16:03:45.869	1	12	S < "A040 OK STATUS completed."
+598	2020-07-20T16:03:45.870	1	12	C > "A041 STATUS Projets/Formation (MESSAGES RECENT)"
+599	2020-07-20T16:03:45.877	1	12	S < "* STATUS Projets/Formation (MESSAGES 1 RECENT 1) "
+600	2020-07-20T16:03:45.878	1	12	S < "A041 OK STATUS completed."
+601	2020-07-20T16:03:45.878	1	12	C > "A042 STATUS "Projets/Remote debugger" (MESSAGES RECENT)"
+602	2020-07-20T16:03:45.887	1	12	S < "* STATUS "Projets/Remote debugger" (MESSAGES 1 RECENT 1) "
+603	2020-07-20T16:03:45.887	1	12	S < "A042 OK STATUS completed."
+604	2020-07-20T16:03:45.888	1	12	C > "A043 STATUS "Projets/SMTP - mail" (MESSAGES RECENT)"
+605	2020-07-20T16:03:45.895	1	12	S < "* STATUS "Projets/SMTP - mail" (MESSAGES 7 RECENT 7) "
+606	2020-07-20T16:03:45.896	1	12	S < "A043 OK STATUS completed."
+607	2020-07-20T16:03:45.896	1	12	C > "A044 STATUS "Projets/Standard actions" (MESSAGES RECENT)"
+608	2020-07-20T16:03:45.938	1	12	S < "* STATUS "Projets/Standard actions" (MESSAGES 3 RECENT 3) "
+609	2020-07-20T16:03:45.938	1	12	S < "A044 OK STATUS completed."
+610	2020-07-20T16:03:45.939	1	12	C > "A045 STATUS Projets/Utube (MESSAGES RECENT)"
+611	2020-07-20T16:03:45.948	1	12	S < "* STATUS Projets/Utube (MESSAGES 1 RECENT 1) "
+612	2020-07-20T16:03:45.948	1	12	S < "A045 OK STATUS completed."
+613	2020-07-20T16:03:45.949	1	12	C > "A046 STATUS "Projets/Web server" (MESSAGES RECENT)"
+614	2020-07-20T16:03:45.958	1	12	S < "* STATUS "Projets/Web server" (MESSAGES 1 RECENT 0) "
+615	2020-07-20T16:03:45.958	1	12	S < "A046 OK STATUS completed."
+616	2020-07-20T16:03:45.959	1	12	C > "A047 STATUS redmine (MESSAGES RECENT)"
+617	2020-07-20T16:03:45.994	1	12	S < "* STATUS redmine (MESSAGES 890 RECENT 300) "
+618	2020-07-20T16:03:45.994	1	12	S < "A047 OK STATUS completed."
+619	2020-07-20T16:03:45.995	1	12	C > "A048 STATUS T&AOI-ches (MESSAGES RECENT)"
+620	2020-07-20T16:03:46.002	1	12	S < "* STATUS T&AOI-ches (MESSAGES 0 RECENT 0) "
+621	2020-07-20T16:03:46.002	1	12	S < "A048 OK STATUS completed."
+622	2020-07-20T16:03:46.003	1	12	C > "A049 STATUS Twitter (MESSAGES RECENT)"
+623	2020-07-20T16:03:46.018	1	12	S < "* STATUS Twitter (MESSAGES 198 RECENT 0) "
+624	2020-07-20T16:03:46.018	1	12	S < "A049 OK STATUS completed."
+625	2020-07-20T16:03:46.019	1	12	C > "A050 STATUS WordPress (MESSAGES RECENT)"
+626	2020-07-20T16:03:46.027	1	12	S < "* STATUS WordPress (MESSAGES 9 RECENT 0) "
+627	2020-07-20T16:03:46.027	1	12	S < "A050 OK STATUS completed."
+628	2020-07-20T16:03:48.024	1	12	C > "A051 SELECT INBOX"
+629	2020-07-20T16:03:48.480	1	12	S < "* 17510 EXISTS"
+630	2020-07-20T16:03:48.480	1	12	S < "* 1 RECENT"
+631	2020-07-20T16:03:48.480	1	12	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+632	2020-07-20T16:03:48.480	1	12	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+633	2020-07-20T16:03:48.480	1	12	S < "* OK [UNSEEN 17502] Is the first unseen message"
+634	2020-07-20T16:03:48.481	1	12	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+635	2020-07-20T16:03:48.481	1	12	S < "* OK [UIDNEXT 38247] The next unique identifier value"
+636	2020-07-20T16:03:48.481	1	12	S < "A051 OK [READ-WRITE] SELECT completed."
+637	2020-07-20T16:03:48.577	1	12	C > "A052 FETCH 17500:17510 (UID INTERNALDATE RFC822.SIZE BODY[])"
+638	2020-07-20T16:03:48.598	1	12	S < "* 17500 FETCH (UID 38236 INTERNALDATE "20-Jul-2020 14:42:53 +0200" RFC822.SIZE 23130 BODY[] {5380}"
+639	2020-07-20T16:03:48.703	1	12	S < Message data (46895 bytes)
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:42:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id 6mBqOcidHNmX1qPS (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:42:52 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 3909761146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:42:52 +0000 (UTC)
+From: =?utf-8?B?TWljaGFlbCBIw7ZobmUgdmlhIDREIEZvcnVt?= <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Topic: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Index: AQHWXnW0/QMuhQD18UKFU/OqllFgpKkQDguAgAAJ/oCAACp2gIAABZ8A
+Date: Mon, 20 Jul 2020 14:42:52 +0200
+Message-ID: <topic/14778/36581@discuss.4d.com>
+References: <topic/14778@discuss.4d.com> <topic/14778/36578@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1e2e105b19453f1132da552b4c68154c2cfffd6b9de4bb6ab8bc52211053041a>
+In-Reply-To: <topic/14778/36578@discuss.4d.com>
+Reply-To: 4D Forum <x4d+c815f674f3d80fcfc53dda1061bb4cc3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	a0019dce-a132-4add-92f2-08d82caa6b40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <C2F64DA422BE4040B54C678F162C5781@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2hvaG5lLm1pY2hhZWwvNDUvNTcwXzIucG5nXSAgICAgICBIb2huZS5NaWNo
+YWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9ob2huZS5taWNoYWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpUaGF0IG9mIGNvdXJzZSB3b3Jrcy4gQnV0IEkgY2Fubm90IHVzZSB0aGUgbmV3IHZh
+ciBzeW50YXggd2l0aCBjbGFzc2VzIGRlZmluZWQgaW4gdGhlIGNvbXBvbmVudCwgcmlnaHQ/IFNv
+IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uIEkgc3RpbGwgaGF2ZSB0byB3cml0ZToNCg0KQ19PQkpF
+Q1QoJGluc3RhbmNlT2ZDbGFzc0FfSW5fQ29tcG9uZW50QSkNCiRpbnN0YW5jZU9mQ2xhc3NBX0lu
+X0NvbXBvbmVudEE6PWNvbXBvbmVudE1ldGhvZFJldHVybmluZ0NsYXNzU3RvcmUuQ2xhc3NBLm5l
+dygpDQoNCkJ1dCB0aGVuIEkgd2lsbCBsb3NlIHRoZSBiZW5lZml0cyBvZiB0aGUgdmFyIHN5bnRh
+eCBmaWx0ZXJpbmcgdGhlIHN1Z2dlc3Rpb25zIHRvIG9ubHkgaW5jbHVkZSBtZXRob2RzIGFuZCBw
+cm9wZXJ0aWVzIGRlZmluZWQgaW4gQ2xhc3NBLg0KDQpXaGF0IEkgd291bGQgbGlrZSB0byBkbyAo
+aW4gdGhlIGhvc3QgYXBwbGljYXRpb24pIGlzIHRoaXM6DQp2YXIgJGZvcmVjYXN0IDogY29tcG9u
+ZW50TWV0aG9kUmV0dXJuaW5nQ2xhc3NTdG9yZS5DbGFzc0ENCg0Kb3IgbWF5YmUgdGhpczoNCg0K
+dmFyICRmb3JlY2FzdCA6IGNvbXBvbmVudHMuRm9yZWNhc3QuQ2xhc3NBDQoNCldoZW5ldmVyIEkg
+dXNlIHRoZSAkZm9yZWNhc3Qgb2JqZWN0IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uLCBpdCBzaG91
+bGQgc2hvdyB0aGUgc2FtZSBmaWx0ZXJlZCBzdWdnZXN0aW9ucyBhcyBpbiB0aGUgY29tcG9uZW50
+LiBSaWdodCBub3cgaXQgZG9lcyBub3QuIE9yIEkgZG9u4oCZdCBnZXQgdGhlIHBvaW50IG9uIGhv
+dyB0byB1c2UgaXQgY29ycmVjdGx5Lg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+Xw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvdmFyLWtleXdvcmQtYW5k
+LWNvbXBvbmVudC1jbGFzcy1zdG9yZXMvMTQ3NzgvNT4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0
+byByZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkg
+VG8NCltodHRwczovL2F2YXRhcnMuZGlzY291cnNlLm9yZy92NC9sZXR0ZXIvdi9lZDhjNGMvNDUu
+cG5nXSAgICAgICBWYW5lc3NhX1RBTEJPVDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdmFuZXNz
+YV90YWxib3Q+IDREIFN0YWZmDQpKdWx5IDIwDQpBdCB0aGUgbW9tZW50LCB0aGVyZSBpcyBubyBu
+b3Rpb24gb2YgcHJpdmF0ZSwgcHVibGljIG9yIHNoYXJlZCBjbGFzc2VzLiBJZiB5b3Ugd2FudCB0
+aGUgaG9zdCBkYXRhYmFzZSB0byBhY2Nlc3MgdGhlIGNsYXNzIG9mIGEgY29tcG9uZW50LCB5b3Ug
+bXVzdCBwYXNzIHRoZSBDUyBvYmplY3Qgb2YgdGhlIGNvbXBvbmVudCB0byB0aGUgaG9zdCBkYXRh
+YmFzZSB3aXRoIGEgc2hhcmVkIGNvbXBvbmVudCBtZXRob2QuIElmIHlvdSBkb27igJl0IHdhbnQg
+dG8gc2hhcmUgYWxsIGNsYXNzZXMsIHlvdSBjYW4gb25seSBjcmVhdGUgYSBzaOKApg0KX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNz
+LjRkLmNvbS90L3Zhci1rZXl3b3JkLWFuZC1jb21wb25lbnQtY2xhc3Mtc3RvcmVzLzE0Nzc4LzU+
+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcg
+dGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNj
+cmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29t
+L2VtYWlsL3Vuc3Vic2NyaWJlLzFlMmUxMDViMTk0NTNmMTEzMmRhNTUyYjRjNjgxNTRjMmNmZmZk
+NmI5ZGU0YmI2YWI4YmM1MjIxMTA1MzA0MWE+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17501 FETCH (UID 38237 INTERNALDATE "20-Jul-2020 14:57:43 +0200" RFC822.SIZE 23015 BODY[] {5202}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:43 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id nvQbdoj54awWCo5b (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A1CCC5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:38 +0000 (UTC)
+From: Van Hooreweghe Koen via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Topic: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Index: AQHWXnpW6Dgh+Shh00WXVHEYVcnp66kQHYcAgAALXQCAABkxAIAACiAA
+Date: Mon, 20 Jul 2020 14:57:38 +0200
+Message-ID: <topic/14781/36583@discuss.4d.com>
+References: <topic/14781@discuss.4d.com> <topic/14781/36577@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/0680e921f60d6c1e2b9874f6c4c7b210078cfb4a50edc7d3eba6236e5904d461>
+In-Reply-To: <topic/14781/36577@discuss.4d.com>
+Reply-To: 4D Forum <x4d+89d181b28ab1c182cc67213c2a16ead6@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	ebf26ce2-108d-4509-89d4-08d82cac7da6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6D91EB48FD73C741AEE94ACB917390C9@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Zhbl9ob29yZXdlZ2hlLmtvZW4vNDUvNTYzXzIucG5nXSAgICAgICAgIFZh
+bl9Ib29yZXdlZ2hlLktvZW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Zhbl9ob29yZXdlZ2hl
+LmtvZW4+IFBhcnRuZXJzDQpKdWx5IDIwDQpbaHR0cHM6Ly9kdWIyLmRpc2NvdXJzZS1jZG4uY29t
+L2J1c2luZXNzMjAvdXNlcl9hdmF0YXIvZGlzY3Vzcy40ZC5jb20va2Vpc3VrZV9taXlha28vNDAv
+ODNfMi5wbmddIEtlaXN1a2VfTWl5YWtvOg0KDQpTaW5jZSBpdCBpcyBub3QgcG9zc2libGUgdG8g
+Y2hhbmdlIENvbnRlbnQtKiBoZWFkZXJzLCBJIHRoaW5rIHRoZSBvbmx5IHdheSBhcm91bmQgaXQg
+aXMgdG8gbGltaXQgdGhlIGh0bWwgdG8gc2hvcnRlciBsaW5lcy4NCg0KSGkgS2Vpc3VrZSwNCg0K
+VGhhbmtzIGZvciB5b3VyIHN1Z2dlc3Rpb24uIFRoZSBlYXN5IHdvcmsgYXJvdW5kIHdhcyB0byBp
+bnNlcnQgbGluZSBmZWVkcyBpbiB0aGUgYm9keSBodG1sIGNvZGUgKGEgbG9uZyB0YWJsZSksIHdo
+aWNoIHNvbHZlZCB0aGUgaXNzdWUgZm9yIG1lLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvbWFpbC10cmFu
+c3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byBy
+ZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8N
+CltodHRwczovL2R1YjIuZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9k
+aXNjdXNzLjRkLmNvbS9rZWlzdWtlX21peWFrby80NS84M18yLnBuZ10gICAgICAgS2Vpc3VrZV9N
+aXlha288aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L2tlaXN1a2VfbWl5YWtvPiA0RCBTdGFmZg0K
+SnVseSAyMA0KSSBjb25maXJtIHRoZSBpc3N1ZSB3aXRoIDE3UjYgW+OCueOCr+ODquODvOODs+OC
+t+ODp+ODg+ODiCAyMDIwLTA3LTIwIDIxLjA2LjQ3XTxodHRwczovL2F3czEuZGlzY291cnNlLWNk
+bi5jb20vYnVzaW5lc3MyMC91cGxvYWRzL3g0ZC9vcmlnaW5hbC8yWC9hL2EzMmYxNDYwNjg2MGVk
+ZjBjYWVhNDc1NTAyZjk4NTNkMGFhYjY3ZWIucG5nPiAkaHRtbEJvZHk6PSI8c3Bhbj4iKygieCIq
+OTk0KykrIjwvc3Bhbj4iIGZpeGVkIGluIHYxOCBb44K544Kv44Oq44O844Oz44K344On44OD44OI
+IDIwMjAtMDctMjAgMjEuMDguMTZdPGh0dHBzOi8vYXdzMS5kaXNjb3Vyc2UtY2RuLmNvbS9idXNp
+bmVzczIwL3VwbG9hZHMveDRkL29yaWdpbmFsLzJYLzgvOGU4MDlhODVlNjFlM2FiYWJjMDkyMDVi
+NzI1OTAwMDY3YWQ5NWNhZi5wbmc+IFRoZSBkaWZmZXJlbmNlIGlzIHRoYXQgdGhlIHYxNyBSNiBo
+ZWFkZXIgbG9va3MgbGlrZSBDb250ZW50LVR5cGU6IHRleHQvaHRtbCBidXQgdjE4IGxvb2tzIGxp
+a2UgQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGZvcm1hdD1mbG93ZWQgU2luY2Ug4oCmDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1
+c3MuNGQuY29tL3QvbWFpbC10cmFuc3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVw
+bHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJl
+Y2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZy
+b20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwv
+dW5zdWJzY3JpYmUvMDY4MGU5MjFmNjBkNmMxZTJiOTg3NGY2YzRjN2IyMTAwNzhjZmI0YTUwZWRj
+N2QzZWJhNjIzNmU1OTA0ZDQ2MT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17502 FETCH (UID 38238 INTERNALDATE "20-Jul-2020 14:57:53 +0200" RFC822.SIZE 21586 BODY[] {4490}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id BS3gwrXYcEyrSM8j (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:23 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A155D61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:23 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Topic: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Index: AQHWXpVhc8QFXnbaYE+jkOv/tZlN/w==
+Date: Mon, 20 Jul 2020 14:57:23 +0200
+Message-ID: <topic/14492/36582@discuss.4d.com>
+References: <topic/14492@discuss.4d.com> <topic/14492/36553@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/9129be58bfdffded5fed9439f1d596c074085d82b0744aecf200681b6f3a95ae>
+In-Reply-To: <topic/14492/36553@discuss.4d.com>
+Reply-To: 4D Forum <x4d+f78dbffd1d21c243a12cabecf04ad392@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bc92d6ad-d02f-47e3-ffd0-08d82cac83b8
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F7EA556A6F87B047B247551FAACB85D5@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpNZXJjaSBwb3VyIGNldHRlIHNvbHV0aW9uIGZvbmN0aW9ubmVsbGUuDQpDZXMgMiBz
+b2x1dGlvbnMgbcOpcml0ZXJhaWVudCB2cmFpbWVudCBkZSBmaWd1cmVyIGVuIGJvbm5lIHBsYWNl
+IGRhbnMgbGEgZG9jIGRlIDREIFZpZXcgUHJvICENCkVsbGVzIHNvbnQgdHLDqHMgc2ltcGxlcywg
+bWFpcyBjZSBu4oCZZXN0IHBhcyBpbnR1aXRpZiBk4oCZb3DDqXJlciBkZSBjZXR0ZSBmYcOnb24u
+DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBz
+Oi8vZGlzY3Vzcy40ZC5jb20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1j
+aGFtcC1vYmpldC1kaXJlY3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRv
+IHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpJbiBSZXBseSBU
+bw0KW2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9mL2E4YjMxOS80NS5w
+bmddICAgICAgIEZhYnJpY2VfTWFpbmd1ZW5lPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9mYWJy
+aWNlX21haW5ndWVuZT4gNEQgU3RhZmYNCkp1bHkgMjANClBvdXIgZW5yZWdpc3RyZXIgZGFucyB1
+biBmaWNoaWVyIHVuIGRvY3VtZW50IDREIFZpZXcgcHJvIHN0b2Nrw6kgZW4gYmFzZTogJFZQb2Jq
+ZWN0Oj1teVRhYmxlLm15VlBGaWVsZCAkZG9jOj1KU09OIFN0cmluZ2lmeSgkVlBvYmplY3QpIFRl
+eHQgdG8gZG9jdW1lbnQoImM6XHRtcFx0ZXN0Y2xpZW50LjR2cCI6JGRvYykNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1jaGFtcC1vYmpldC1kaXJl
+Y3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllv
+dSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9k
+ZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85MTI5YmU1OGJmZGZmZGVkNWZlZDk0
+MzlmMWQ1OTZjMDc0MDg1ZDgyYjA3NDRhZWNmMjAwNjgxYjZmM2E5NWFlPi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17503 FETCH (UID 38239 INTERNALDATE "20-Jul-2020 15:10:10 +0200" RFC822.SIZE 18514 BODY[] {3436}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id gbbfsD6zpjh17HlA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:10:10 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 0623861146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:10:10 +0000 (UTC)
+From: 4D Quality Assurance via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6Eg==
+Date: Mon, 20 Jul 2020 15:10:10 +0200
+Message-ID: <topic/14663/36584@discuss.4d.com>
+References: <topic/14663@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/2ed6a7aa855d70da03f5ebb38fb02349c4fbd255edd80e8ac96b8700bf18e386>
+In-Reply-To: <topic/14663@discuss.4d.com>
+Reply-To: 4D Forum <x4d+006f50e09fb7ab0bb7c172c0238adb2e@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	36f01c48-ebd5-407a-70f7-08d82cae3b7c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <AEDD52732BD02D4CAD145DC29AC1BFBD@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5wbmddICA0RFF1YWxpdHlB
+c3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0eWFzc3VyYW5jZT4gNEQg
+U3RhZmYNCkp1bHkgMjANCg0KVGhlIFN0YXR1cyBvZiB0aGlzIGJ1ZyBnb2VzIGZyb20g4oCcKFF1
+ZXVlZCnigJ0gdG8g4oCcKENsb3NlZCnigJ0NCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS90L2FjaTAxMDEwMDYt
+dGhpcy1jb21tYW5kLW5vdC1jb3JyZWN0LWluLWRlYnVnZ2VyLzE0NjYzLzI+IG9yIHJlcGx5IHRv
+IHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNl
+IHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRo
+ZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vi
+c2NyaWJlLzJlZDZhN2FhODU1ZDcwZGEwM2Y1ZWJiMzhmYjAyMzQ5YzRmYmQyNTVlZGQ4MGU4YWM5
+NmI4NzAwYmYxOGUzODY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17504 FETCH (UID 38240 INTERNALDATE "20-Jul-2020 15:12:08 +0200" RFC822.SIZE 14018 BODY[] {3184}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from vps329174.ovh.net (144.ip-213-32-23.eu [213.32.23.144]) by barracuda.waycom.net with ESMTP id cCPrHItgE8FCP4Rg for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+Received: by vps329174.ovh.net (Postfix, from userid 33)
+	id 5E9503F52E; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+From: WordPress <wordpress@blog.4d.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Topic: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Index: AQHWXpdfXLJl2Z72C0ixHcZSbDPNcg==
+Date: Mon, 20 Jul 2020 15:12:08 +0200
+Message-ID: <59704b810d68d8be5c418f1fe2fdfa6a@blog.4d.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	167e5328-88fe-4d14-4a54-08d82cae81d6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <FCE6CAA19D140746A8E629C01EDE63B1@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+U3RhdHVzIHdhcyBjaGFuZ2VkIGZvciBQb3N0ICMyNTA0MSAiQWNjZXNzIGZvcm0gb2JqZWN0IHZh
+bHVlcyBieSBwcm9ncmFtbWluZyIgYnkgU3RhY2llIExvdmluZyAoc3RhY2llLmxvdmluZ0A0ZC5j
+b20pDQpUaGlzIGFjdGlvbiB3YXMgdGFrZW4gb24gSnVseSAyMCwgMjAyMCBhdCAxOjEyIHBtIA0K
+DQpFbmdsaXNoIGNoZWNrID0+IFJlYWR5IFRvIFNjaGVkdWxlDQoNCi0tLS0tLS0tLS0tLS0tLS0t
+LS0tDQoNCj09IFBvc3QgRGV0YWlscyA9PQ0KVGl0bGU6IEFjY2VzcyBmb3JtIG9iamVjdCB2YWx1
+ZXMgYnkgcHJvZ3JhbW1pbmcNCkF1dGhvcjogRmFicmljZSBNYWluZ3VlbsOpIChmYWJyaWNlLm1h
+aW5ndWVuZUA0ZC5jb20pDQoNCj09IEFjdGlvbnMgPT0NCkFkZCBlZGl0b3JpYWwgY29tbWVudDog
+aHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1hZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1l
+ZGl0I2VkaXRvcmlhbGNvbW1lbnRzL2FkZA0KRWRpdDogaHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1h
+ZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1lZGl0DQpWaWV3OiBodHRwczovL2Jsb2cu
+NGQuY29tLz9wPTI1MDQxJnByZXZpZXc9dHJ1ZQ0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLQ0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBlbWFpbCBiZWNhdXNlIHlvdSBhcmUgc3Vic2NyaWJlZCB0byAi
+QWNjZXNzIGZvcm0gb2JqZWN0IHZhbHVlcyBieSBwcm9ncmFtbWluZyIuDQpUaGlzIGVtYWlsIHdh
+cyBzZW50IE1vbiwgMjAgSnVsIDIwMjAgMTM6MTI6MDggKzAwMDAuDQogDQo0RCBCbG9nIHwgaHR0
+cHM6Ly9ibG9nLjRkLmNvbSB8IGh0dHBzOi8vYmxvZy40ZC5jb20vd3AtYWRtaW4vDQoNCg==
+ FLAGS (\Seen))
+* 17505 FETCH (UID 38241 INTERNALDATE "20-Jul-2020 15:27:58 +0200" RFC822.SIZE 20574 BODY[] {4035}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:27:58 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id EmYgjIE6Gkj9oPZN (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:27:57 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 2C3465CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:27:57 +0000 (UTC)
+From: Christian Sakowski via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6EqkQVHOA
+Date: Mon, 20 Jul 2020 15:27:57 +0200
+Message-ID: <topic/14663/36585@discuss.4d.com>
+References: <topic/14663@discuss.4d.com> <topic/14663/36584@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/37bf6af016e3fbe29e4af48a84a68fc8a25a5f0c496cf3a2f7c917d2acd97eb5>
+In-Reply-To: <topic/14663/36584@discuss.4d.com>
+Reply-To: 4D Forum <x4d+ed1888811ba00f8e96e6f9d9a4ba2e12@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bcf4e89c-a21e-4878-8d42-08d82cb0b78a
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <8260E69095EAD34DBDC502721432DD74@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Nha293c2tpLmNocmlzdGlhbi80NS80OTNfMi5wbmddICBTYWtvd3NraS5D
+aHJpc3RpYW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Nha293c2tpLmNocmlzdGlhbj4gUGFy
+dG5lcnMNCkp1bHkgMjANCg0KRml4ZWQ/DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9hY2kwMTAxMDA2LXRo
+aXMtY29tbWFuZC1ub3QtY29ycmVjdC1pbi1kZWJ1Z2dlci8xNDY2My8zPiBvciByZXBseSB0byB0
+aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQpJbiBSZXBseSBUbw0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIw
+L3VzZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5w
+bmddICA0RFF1YWxpdHlBc3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0
+eWFzc3VyYW5jZT4gNEQgU3RhZmYNCkp1bHkgMjANClRoZSBTdGF0dXMgb2YgdGhpcyBidWcgZ29l
+cyBmcm9tIOKAnChRdWV1ZWQp4oCdIHRvIOKAnChDbG9zZWQp4oCdDQpfX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3Qv
+YWNpMDEwMTAwNi10aGlzLWNvbW1hbmQtbm90LWNvcnJlY3QtaW4tZGVidWdnZXIvMTQ2NjMvMz4g
+b3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0
+aGlzIGJlY2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2Ny
+aWJlIGZyb20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+ZW1haWwvdW5zdWJzY3JpYmUvMzdiZjZhZjAxNmUzZmJlMjllNGFmNDhhODRhNjhmYzhhMjVhNWYw
+YzQ5NmNmM2EyZjdjOTE3ZDJhY2Q5N2ViNT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17506 FETCH (UID 38242 INTERNALDATE "20-Jul-2020 15:30:36 +0200" RFC822.SIZE 23761 BODY[] {5404}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:30:36 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id GRrLJZqWL3xQfXvf (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:30:34 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A24FA6109E
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:30:34 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Topic:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Index: AQHWXFRsLRUCj4SXqUyZdlT+yG1VrKkNKAMAgAAJxICAABQMAIAAD0gAgAMEmQA=
+Date: Mon, 20 Jul 2020 15:30:34 +0200
+Message-ID: <topic/14760/36586@discuss.4d.com>
+References: <topic/14760@discuss.4d.com> <topic/14760/36478@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/e53b5a5ee508b850631edff5f0031f0a09fada06115f00bbcae3950299934559>
+In-Reply-To: <topic/14760/36478@discuss.4d.com>
+Reply-To: 4D Forum <x4d+62c6b3a88769b182a542b90b300c3f2f@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	6ed1f238-32bf-42d0-f8e0-08d82cb115c2
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F3556B2DE9199A4FBAABF5A125E3E06D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpFbiBtw6ptZSB0ZW1wcywgNEQgVmlldyBQcm8gbuKAmWEgdnJhaW1lbnQgcGx1cyBy
+aWVuIMOgIHZvaXIgYXZlYyBsYSBwYXJ0aWUgbGlzdGJveCBtYWludGVuYW50IChkw6lqw6AgcXXi
+gJlhdmFudCBj4oCZw6l0YWl0IGRpc2N1dGFibGUpLiBFdCBwb3VyIHV0aWxpc2VyIGNldHRlIGZv
+bmN0aW9ubmFsaXTDqSwgY+KAmWVzdCBkZXMgY2FzIFRSRVMgcGFydGljdWxpZXJzIGV0IGplIG5l
+IGfDqHJlIHBhcyBwbHVzIGTigJl1bmUgMTAwIGRlIGxpZ25lcyBkYW5zIGNlIHR5cGUgZGUgbGlz
+dGJveDsgZG9uYywgamUgbmUgcGVuc2UgcGFzIHF1ZSBjZWxhIHNvaXQgTEEgcsOpdm9sdXRpb24g
+cXVlIHZvdXMgZXNww6lyZXouDQoNClB1aXNxdWUgNEQgVmlldyBQcm8gbuKAmWVzdCBwbHVzIHVu
+IHBsdWdpbiBldCBlc3QgaW50w6lncsOpIFs6cm9sbF9leWVzOl0gIGRhbnMgNEQgY2V0dGUgZMOp
+Y2lzaW9uIGV0IHBsdXMgcXVlIG5vcm1hbGUuIE1haW50ZW5hbnQgY29tbWUgZWxsZSDDqXRhaXQg
+c8OpcGFyw6llIGRlIG1hbmnDqHJlIGJpZW4gcHLDqWNpc2UgcGFyIHVuZSBnZXN0aW9uIGRlIGxp
+Y2VuY2UgY+KAmWVzdCBxdeKAmWlsIGRvaXQgeSBhdm9pciB1biBsb3VwIHF1ZWxxdWUgcGFydOKA
+pg0KDQpTaSDDp2EgcGV1dCBhaWRlIMOgIGZhaXJlIMOpdm9sdWVyIGxhIHBhcnRpZSBsaXN0Ym94
+IHRhbnQgbWlldXguDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0
+IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC95b3Utbm8tbG9uZ2VyLW5lZWQtYS00ZC12
+aWV3LXByby1saWNlbnNlLXRvLXVzZS1wcm8tbGlzdC1ib3gtZmVhdHVyZXMtdGhleS1yZS1ub3ct
+ZnJlZS8xNDc2MC8xMD4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIu
+ZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS9k
+ZV9tb250YXJkLmFybmF1ZC80NS80NzFfMi5wbmddICAgZGVfTU9OVEFSRC5Bcm5hdWQ8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS91L2RlX21vbnRhcmQuYXJuYXVkPiBQYXJ0bmVycw0KSnVseSAxOA0K
+Q+KAmWVzdCBwYXMgZGUgc2EgZmF1dGUgc+KAmWlsIGdsaXNzZSwgNEQgYSBzYXZvbm7DqSBsYSBw
+ZW50ZSA6cm9mbDogW0NhcHR1cmUgZOKAmcOpY3JhbiAyMDIwLTA3LTE4IMOgIDE3LjA3LjQ2XQ0K
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9k
+aXNjdXNzLjRkLmNvbS90L3lvdS1uby1sb25nZXItbmVlZC1hLTRkLXZpZXctcHJvLWxpY2Vuc2Ut
+dG8tdXNlLXByby1saXN0LWJveC1mZWF0dXJlcy10aGV5LXJlLW5vdy1mcmVlLzE0NzYwLzEwPiBv
+ciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllvdSBhcmUgcmVjZWl2aW5nIHRo
+aXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9kZS4NCg0KVG8gdW5zdWJzY3Jp
+YmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS9l
+bWFpbC91bnN1YnNjcmliZS9lNTNiNWE1ZWU1MDhiODUwNjMxZWRmZjVmMDAzMWYwYTA5ZmFkYTA2
+MTE1ZjAwYmJjYWUzOTUwMjk5OTM0NTU5Pi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17507 FETCH (UID 38243 INTERNALDATE "20-Jul-2020 15:41:30 +0200" RFC822.SIZE 18223 BODY[] {3402}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id 1QhtBp5Gk0Ty2HJA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:41:29 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A7CE94B7
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:41:29 +0000 (UTC)
+From: Arnaud de Montard via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiA==
+Date: Mon, 20 Jul 2020 15:41:29 +0200
+Message-ID: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/39302ba8b6c9ea9259e7e914054115cfd8bf3265f2b108b2372e09cd2a6d638d>
+Reply-To: 4D Forum <x4d+f1b350403a8e05351d3eed434355723a@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	88391749-d344-458d-244d-08d82cb29bde
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <486878E0CAD9E740A4892FBA72091A96@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2RlX21vbnRhcmQuYXJuYXVkLzQ1LzQ3MV8yLnBuZ10gICBkZV9NT05UQVJE
+LkFybmF1ZDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvZGVfbW9udGFyZC5hcm5hdWQ+IFBhcnRu
+ZXJzDQpKdWx5IDIwDQoNCkrigJlhaSBiZWF1IHRlc3RlciBldCByZSB0ZXN0ZXIsIGplIG5lIHZv
+aXMgcGFzIGxhIG1vaW5kcmUgYW3DqWxpb3JhdGlvbiBkZSBwZXJmb3JtYW5jZSBhcHBvcnTDqWUg
+cGFyIGNldHRlIGNvbW1hbmRlIDogbMOpZ2VuZGUgdXJiYWluZSA/DQoNCl9fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+dC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMT4gb3IgcmVwbHkgdG8gdGhp
+cyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2UgeW91
+IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhlc2Ug
+ZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJzY3Jp
+YmUvMzkzMDJiYThiNmM5ZWE5MjU5ZTdlOTE0MDU0MTE1Y2ZkOGJmMzI2NWYyYjEwOGIyMzcyZTA5
+Y2QyYTZkNjM4ZD4uDQoNCg0K
+ FLAGS (\Seen))
+* 17508 FETCH (UID 38244 INTERNALDATE "20-Jul-2020 15:43:39 +0200" RFC822.SIZE 19993 BODY[] {3750}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:43:39 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id CBte01E8Y2rH8gxu (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:43:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:5::259:de65:d819])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 6947661331
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:43:38 +0000 (UTC)
+From: Tom Benedict via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Project Mode Component[English Community]
+Thread-Topic: [4D Forum] Project Mode Component[English Community]
+Thread-Index: AQHWXoON0mpwAbr7HUmBi4R1uL6AhakQWPwA
+Date: Mon, 20 Jul 2020 15:43:38 +0200
+Message-ID: <topic/14786/36588@discuss.4d.com>
+References: <topic/14786@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/62bacf73c0f11142a7829c65a2911c22922cefbd79d0a2ba9557880b707073ff>
+In-Reply-To: <topic/14786@discuss.4d.com>
+Reply-To: 4D Forum <x4d+e52a161a41c48a2e39f58e679b4e81ea@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	5b9cc318-f3aa-4628-842c-08d82cb2e87c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <855F231BC5A48B4BAD072981D747968D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci90L2E1ODdmNi80NS5wbmdd
+ICAgICAgIFRvbV9CZW5lZGljdDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdG9tX2JlbmVkaWN0
+Pg0KSnVseSAyMA0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3Vz
+ZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tL2dyYWhhbV9sYW5nbGV5LzQwLzE1NThfMi5wbmddIEdy
+YWhhbV9MYW5nbGV5Og0KDQpXaGF0IGlzIHRoZSBjdXJyZW50IGJlc3QgcHJhY3RpY2UgdG8gYnVp
+bGQgQ29tcG9uZW50cyBpbiBQcm9qZWN0IE1vZGU/DQoNCkkgZG9u4oCZdCBoYXZlIGFueSBleHBl
+cmllbmNlIGluIDREIFByb2plY3QgTW9kZSwgYnV0IEkgd291bGQgZXhwZWN0IHRoYXQgQ29tcG9u
+ZW50IGNvZGUgc2hvdWxkIGJlIG1hbmFnZWQgYnkgdGhlIHNhbWUgdG9vbCB1c2VkIHRvIG1hbmFn
+ZSB0aGUgcmVzdCBvZiB0aGUgc291cmNlIGNvZGUuIChHSXQsIENWUywgU1ZOLCBQZXJmb3JjZSwg
+ZXRjKS4NCg0KVG9tIEJlbmVkaWN0DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9wcm9qZWN0LW1vZGUtY29t
+cG9uZW50LzE0Nzg2LzM+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2Rl
+Lg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vic2NyaWJlLzYyYmFjZjczYzBmMTExNDJhNzgyOWM2
+NWEyOTExYzIyOTIyY2VmYmQ3OWQwYTJiYTk1NTc4ODBiNzA3MDczZmY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17509 FETCH (UID 38245 INTERNALDATE "20-Jul-2020 15:49:32 +0200" RFC822.SIZE 18996 BODY[] {3577}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id yge8IER8hpoVgUam (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:49:32 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:3::25b:1b9d:93d0])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id EB0DA61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:49:31 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiKkQWnGA
+Date: Mon, 20 Jul 2020 15:49:31 +0200
+Message-ID: <topic/14789/36589@discuss.4d.com>
+References: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1a84b8e1bd8366e65e1b9760e4526fbaa549a9d6b0bb613fc42428e926eee54f>
+In-Reply-To: <topic/14789@discuss.4d.com>
+Reply-To: 4D Forum <x4d+5fe8e317fd52b8500a151dde786a1ec3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	df4785ec-b61a-4252-288a-08d82cb3bb40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <66E54A2B1590974C98B9B41EBBBDAEAA@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpDb21tZSBjZWxhIGplIGRpcmFpcyBxdWUgcG91ciB1bmUgcmVjaGVyY2hlIHPDqXF1
+ZW50aWVsbGUgKHRyw6hzIGxvbmd1ZSkgb3VpLCBtYWlzIGRhbnMgbGVzIGF1dHJlcyBjYXMsIGVz
+dC1jZSBiaWVuIGfDqXLDqSA/IEVuIHBsdXMsIGF2ZWMgT1JEQSwgbGUgbXVsdGl0aHJlYWQsIGV0
+IGxlcyBTU0QsIGzigJl1dGlsaXTDqSBkb2l0IHPigJlhbW9pbmRyaXIuDQoNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMj4gb3IgcmVwbHkgdG8g
+dGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2Ug
+eW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhl
+c2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJz
+Y3JpYmUvMWE4NGI4ZTFiZDgzNjZlNjVlMWI5NzYwZTQ1MjZmYmFhNTQ5YTlkNmIwYmI2MTNmYzQy
+NDI4ZTkyNmVlZTU0Zj4uDQoNCg0K
+ FLAGS (\Seen))
+* 17510 FETCH (UID 38246 INTERNALDATE "20-Jul-2020 16:02:17 +0200" RFC822.SIZE 20143 BODY[] {3814}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id RLBRt1YY6Mu7XBvJ (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 16:02:16 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 271BF5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:02:16 +0000 (UTC)
+From: mikey via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Topic: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Index: AQHWXG9/0VWEDXFnkEG30hXyKasy/qkNNOoAgAABbwCAAywAAA==
+Date: Mon, 20 Jul 2020 16:02:16 +0200
+Message-ID: <topic/14623/36590@discuss.4d.com>
+References: <topic/14623@discuss.4d.com> <topic/14623/36470@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/954da57dbc8f387b2e1028a495a3705676cb1fa071878af8f5913728fcd7a7e8>
+In-Reply-To: <topic/14623/36470@discuss.4d.com>
+Reply-To: 4D Forum <x4d+dd5287bf45f49ec9bb6713ff3a23ef65@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	956ac6b5-4e2e-4dfe-ef26-08d82cb58343
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6610ED076FDAD7469519D30FA6CDC916@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9tLzQzOWQ1ZS80NS5wbmdd
+ICAgICAgIG1pa2V5PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9taWtleT4gUGFydG5lcnMNCkp1
+bHkgMjANCg0KaWYgdGhlcmUgd2FzIGV2ZXIgYSByZWFzb24gdG8gcmVtb3ZlIHRva2Vuc+KApg0K
+DQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL3QvNGQtdjE4LXI0LWJldGEtdGhlLWZ1bGwtbGlzdC1vZi1mZWF0dXJl
+cy8xNDYyMy8xMz4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIuZGlz
+Y291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS92ZGwv
+NDUvOV8yLnBuZ10gICB2ZGw8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3ZkbD4gNEQgU3RhZmYN
+Ckp1bHkgMTgNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGlj
+PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC80ZC12MTgtcjQtYmV0YS10aGUtZnVsbC1saXN0LW9m
+LWZlYXR1cmVzLzE0NjIzLzEzPiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoN
+CllvdSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3Qg
+bW9kZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0
+cHM6Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85NTRkYTU3ZGJjOGYzODdiMmUx
+MDI4YTQ5NWEzNzA1Njc2Y2IxZmEwNzE4NzhhZjhmNTkxMzcyOGZjZDdhN2U4Pi4NCg0KDQo=
+ FLAGS (\Seen \Recent))
+A052 OK FETCH completed.
+
+640	2020-07-20T16:03:48.704	1	12	S < "A052 OK FETCH completed."
+641	2020-07-20T16:03:48.711	1	12	C > "A053 FETCH 17500:17510 (UID INTERNALDATE RFC822.SIZE BODY[])"
+642	2020-07-20T16:03:48.729	1	12	S < "* 17500 FETCH (UID 38236 INTERNALDATE "20-Jul-2020 14:42:53 +0200" RFC822.SIZE 23130 BODY[] {5380}"
+643	2020-07-20T16:03:48.778	1	12	S < Message data (46895 bytes)
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:42:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id 6mBqOcidHNmX1qPS (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:42:52 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 3909761146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:42:52 +0000 (UTC)
+From: =?utf-8?B?TWljaGFlbCBIw7ZobmUgdmlhIDREIEZvcnVt?= <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Topic: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Index: AQHWXnW0/QMuhQD18UKFU/OqllFgpKkQDguAgAAJ/oCAACp2gIAABZ8A
+Date: Mon, 20 Jul 2020 14:42:52 +0200
+Message-ID: <topic/14778/36581@discuss.4d.com>
+References: <topic/14778@discuss.4d.com> <topic/14778/36578@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1e2e105b19453f1132da552b4c68154c2cfffd6b9de4bb6ab8bc52211053041a>
+In-Reply-To: <topic/14778/36578@discuss.4d.com>
+Reply-To: 4D Forum <x4d+c815f674f3d80fcfc53dda1061bb4cc3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	a0019dce-a132-4add-92f2-08d82caa6b40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <C2F64DA422BE4040B54C678F162C5781@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2hvaG5lLm1pY2hhZWwvNDUvNTcwXzIucG5nXSAgICAgICBIb2huZS5NaWNo
+YWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9ob2huZS5taWNoYWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpUaGF0IG9mIGNvdXJzZSB3b3Jrcy4gQnV0IEkgY2Fubm90IHVzZSB0aGUgbmV3IHZh
+ciBzeW50YXggd2l0aCBjbGFzc2VzIGRlZmluZWQgaW4gdGhlIGNvbXBvbmVudCwgcmlnaHQ/IFNv
+IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uIEkgc3RpbGwgaGF2ZSB0byB3cml0ZToNCg0KQ19PQkpF
+Q1QoJGluc3RhbmNlT2ZDbGFzc0FfSW5fQ29tcG9uZW50QSkNCiRpbnN0YW5jZU9mQ2xhc3NBX0lu
+X0NvbXBvbmVudEE6PWNvbXBvbmVudE1ldGhvZFJldHVybmluZ0NsYXNzU3RvcmUuQ2xhc3NBLm5l
+dygpDQoNCkJ1dCB0aGVuIEkgd2lsbCBsb3NlIHRoZSBiZW5lZml0cyBvZiB0aGUgdmFyIHN5bnRh
+eCBmaWx0ZXJpbmcgdGhlIHN1Z2dlc3Rpb25zIHRvIG9ubHkgaW5jbHVkZSBtZXRob2RzIGFuZCBw
+cm9wZXJ0aWVzIGRlZmluZWQgaW4gQ2xhc3NBLg0KDQpXaGF0IEkgd291bGQgbGlrZSB0byBkbyAo
+aW4gdGhlIGhvc3QgYXBwbGljYXRpb24pIGlzIHRoaXM6DQp2YXIgJGZvcmVjYXN0IDogY29tcG9u
+ZW50TWV0aG9kUmV0dXJuaW5nQ2xhc3NTdG9yZS5DbGFzc0ENCg0Kb3IgbWF5YmUgdGhpczoNCg0K
+dmFyICRmb3JlY2FzdCA6IGNvbXBvbmVudHMuRm9yZWNhc3QuQ2xhc3NBDQoNCldoZW5ldmVyIEkg
+dXNlIHRoZSAkZm9yZWNhc3Qgb2JqZWN0IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uLCBpdCBzaG91
+bGQgc2hvdyB0aGUgc2FtZSBmaWx0ZXJlZCBzdWdnZXN0aW9ucyBhcyBpbiB0aGUgY29tcG9uZW50
+LiBSaWdodCBub3cgaXQgZG9lcyBub3QuIE9yIEkgZG9u4oCZdCBnZXQgdGhlIHBvaW50IG9uIGhv
+dyB0byB1c2UgaXQgY29ycmVjdGx5Lg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+Xw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvdmFyLWtleXdvcmQtYW5k
+LWNvbXBvbmVudC1jbGFzcy1zdG9yZXMvMTQ3NzgvNT4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0
+byByZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkg
+VG8NCltodHRwczovL2F2YXRhcnMuZGlzY291cnNlLm9yZy92NC9sZXR0ZXIvdi9lZDhjNGMvNDUu
+cG5nXSAgICAgICBWYW5lc3NhX1RBTEJPVDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdmFuZXNz
+YV90YWxib3Q+IDREIFN0YWZmDQpKdWx5IDIwDQpBdCB0aGUgbW9tZW50LCB0aGVyZSBpcyBubyBu
+b3Rpb24gb2YgcHJpdmF0ZSwgcHVibGljIG9yIHNoYXJlZCBjbGFzc2VzLiBJZiB5b3Ugd2FudCB0
+aGUgaG9zdCBkYXRhYmFzZSB0byBhY2Nlc3MgdGhlIGNsYXNzIG9mIGEgY29tcG9uZW50LCB5b3Ug
+bXVzdCBwYXNzIHRoZSBDUyBvYmplY3Qgb2YgdGhlIGNvbXBvbmVudCB0byB0aGUgaG9zdCBkYXRh
+YmFzZSB3aXRoIGEgc2hhcmVkIGNvbXBvbmVudCBtZXRob2QuIElmIHlvdSBkb27igJl0IHdhbnQg
+dG8gc2hhcmUgYWxsIGNsYXNzZXMsIHlvdSBjYW4gb25seSBjcmVhdGUgYSBzaOKApg0KX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNz
+LjRkLmNvbS90L3Zhci1rZXl3b3JkLWFuZC1jb21wb25lbnQtY2xhc3Mtc3RvcmVzLzE0Nzc4LzU+
+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcg
+dGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNj
+cmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29t
+L2VtYWlsL3Vuc3Vic2NyaWJlLzFlMmUxMDViMTk0NTNmMTEzMmRhNTUyYjRjNjgxNTRjMmNmZmZk
+NmI5ZGU0YmI2YWI4YmM1MjIxMTA1MzA0MWE+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17501 FETCH (UID 38237 INTERNALDATE "20-Jul-2020 14:57:43 +0200" RFC822.SIZE 23015 BODY[] {5202}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:43 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id nvQbdoj54awWCo5b (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A1CCC5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:38 +0000 (UTC)
+From: Van Hooreweghe Koen via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Topic: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Index: AQHWXnpW6Dgh+Shh00WXVHEYVcnp66kQHYcAgAALXQCAABkxAIAACiAA
+Date: Mon, 20 Jul 2020 14:57:38 +0200
+Message-ID: <topic/14781/36583@discuss.4d.com>
+References: <topic/14781@discuss.4d.com> <topic/14781/36577@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/0680e921f60d6c1e2b9874f6c4c7b210078cfb4a50edc7d3eba6236e5904d461>
+In-Reply-To: <topic/14781/36577@discuss.4d.com>
+Reply-To: 4D Forum <x4d+89d181b28ab1c182cc67213c2a16ead6@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	ebf26ce2-108d-4509-89d4-08d82cac7da6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6D91EB48FD73C741AEE94ACB917390C9@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Zhbl9ob29yZXdlZ2hlLmtvZW4vNDUvNTYzXzIucG5nXSAgICAgICAgIFZh
+bl9Ib29yZXdlZ2hlLktvZW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Zhbl9ob29yZXdlZ2hl
+LmtvZW4+IFBhcnRuZXJzDQpKdWx5IDIwDQpbaHR0cHM6Ly9kdWIyLmRpc2NvdXJzZS1jZG4uY29t
+L2J1c2luZXNzMjAvdXNlcl9hdmF0YXIvZGlzY3Vzcy40ZC5jb20va2Vpc3VrZV9taXlha28vNDAv
+ODNfMi5wbmddIEtlaXN1a2VfTWl5YWtvOg0KDQpTaW5jZSBpdCBpcyBub3QgcG9zc2libGUgdG8g
+Y2hhbmdlIENvbnRlbnQtKiBoZWFkZXJzLCBJIHRoaW5rIHRoZSBvbmx5IHdheSBhcm91bmQgaXQg
+aXMgdG8gbGltaXQgdGhlIGh0bWwgdG8gc2hvcnRlciBsaW5lcy4NCg0KSGkgS2Vpc3VrZSwNCg0K
+VGhhbmtzIGZvciB5b3VyIHN1Z2dlc3Rpb24uIFRoZSBlYXN5IHdvcmsgYXJvdW5kIHdhcyB0byBp
+bnNlcnQgbGluZSBmZWVkcyBpbiB0aGUgYm9keSBodG1sIGNvZGUgKGEgbG9uZyB0YWJsZSksIHdo
+aWNoIHNvbHZlZCB0aGUgaXNzdWUgZm9yIG1lLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvbWFpbC10cmFu
+c3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byBy
+ZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8N
+CltodHRwczovL2R1YjIuZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9k
+aXNjdXNzLjRkLmNvbS9rZWlzdWtlX21peWFrby80NS84M18yLnBuZ10gICAgICAgS2Vpc3VrZV9N
+aXlha288aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L2tlaXN1a2VfbWl5YWtvPiA0RCBTdGFmZg0K
+SnVseSAyMA0KSSBjb25maXJtIHRoZSBpc3N1ZSB3aXRoIDE3UjYgW+OCueOCr+ODquODvOODs+OC
+t+ODp+ODg+ODiCAyMDIwLTA3LTIwIDIxLjA2LjQ3XTxodHRwczovL2F3czEuZGlzY291cnNlLWNk
+bi5jb20vYnVzaW5lc3MyMC91cGxvYWRzL3g0ZC9vcmlnaW5hbC8yWC9hL2EzMmYxNDYwNjg2MGVk
+ZjBjYWVhNDc1NTAyZjk4NTNkMGFhYjY3ZWIucG5nPiAkaHRtbEJvZHk6PSI8c3Bhbj4iKygieCIq
+OTk0KykrIjwvc3Bhbj4iIGZpeGVkIGluIHYxOCBb44K544Kv44Oq44O844Oz44K344On44OD44OI
+IDIwMjAtMDctMjAgMjEuMDguMTZdPGh0dHBzOi8vYXdzMS5kaXNjb3Vyc2UtY2RuLmNvbS9idXNp
+bmVzczIwL3VwbG9hZHMveDRkL29yaWdpbmFsLzJYLzgvOGU4MDlhODVlNjFlM2FiYWJjMDkyMDVi
+NzI1OTAwMDY3YWQ5NWNhZi5wbmc+IFRoZSBkaWZmZXJlbmNlIGlzIHRoYXQgdGhlIHYxNyBSNiBo
+ZWFkZXIgbG9va3MgbGlrZSBDb250ZW50LVR5cGU6IHRleHQvaHRtbCBidXQgdjE4IGxvb2tzIGxp
+a2UgQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGZvcm1hdD1mbG93ZWQgU2luY2Ug4oCmDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1
+c3MuNGQuY29tL3QvbWFpbC10cmFuc3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVw
+bHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJl
+Y2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZy
+b20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwv
+dW5zdWJzY3JpYmUvMDY4MGU5MjFmNjBkNmMxZTJiOTg3NGY2YzRjN2IyMTAwNzhjZmI0YTUwZWRj
+N2QzZWJhNjIzNmU1OTA0ZDQ2MT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17502 FETCH (UID 38238 INTERNALDATE "20-Jul-2020 14:57:53 +0200" RFC822.SIZE 21586 BODY[] {4490}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id BS3gwrXYcEyrSM8j (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:23 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A155D61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:23 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Topic: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Index: AQHWXpVhc8QFXnbaYE+jkOv/tZlN/w==
+Date: Mon, 20 Jul 2020 14:57:23 +0200
+Message-ID: <topic/14492/36582@discuss.4d.com>
+References: <topic/14492@discuss.4d.com> <topic/14492/36553@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/9129be58bfdffded5fed9439f1d596c074085d82b0744aecf200681b6f3a95ae>
+In-Reply-To: <topic/14492/36553@discuss.4d.com>
+Reply-To: 4D Forum <x4d+f78dbffd1d21c243a12cabecf04ad392@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bc92d6ad-d02f-47e3-ffd0-08d82cac83b8
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F7EA556A6F87B047B247551FAACB85D5@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpNZXJjaSBwb3VyIGNldHRlIHNvbHV0aW9uIGZvbmN0aW9ubmVsbGUuDQpDZXMgMiBz
+b2x1dGlvbnMgbcOpcml0ZXJhaWVudCB2cmFpbWVudCBkZSBmaWd1cmVyIGVuIGJvbm5lIHBsYWNl
+IGRhbnMgbGEgZG9jIGRlIDREIFZpZXcgUHJvICENCkVsbGVzIHNvbnQgdHLDqHMgc2ltcGxlcywg
+bWFpcyBjZSBu4oCZZXN0IHBhcyBpbnR1aXRpZiBk4oCZb3DDqXJlciBkZSBjZXR0ZSBmYcOnb24u
+DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBz
+Oi8vZGlzY3Vzcy40ZC5jb20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1j
+aGFtcC1vYmpldC1kaXJlY3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRv
+IHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpJbiBSZXBseSBU
+bw0KW2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9mL2E4YjMxOS80NS5w
+bmddICAgICAgIEZhYnJpY2VfTWFpbmd1ZW5lPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9mYWJy
+aWNlX21haW5ndWVuZT4gNEQgU3RhZmYNCkp1bHkgMjANClBvdXIgZW5yZWdpc3RyZXIgZGFucyB1
+biBmaWNoaWVyIHVuIGRvY3VtZW50IDREIFZpZXcgcHJvIHN0b2Nrw6kgZW4gYmFzZTogJFZQb2Jq
+ZWN0Oj1teVRhYmxlLm15VlBGaWVsZCAkZG9jOj1KU09OIFN0cmluZ2lmeSgkVlBvYmplY3QpIFRl
+eHQgdG8gZG9jdW1lbnQoImM6XHRtcFx0ZXN0Y2xpZW50LjR2cCI6JGRvYykNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1jaGFtcC1vYmpldC1kaXJl
+Y3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllv
+dSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9k
+ZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85MTI5YmU1OGJmZGZmZGVkNWZlZDk0
+MzlmMWQ1OTZjMDc0MDg1ZDgyYjA3NDRhZWNmMjAwNjgxYjZmM2E5NWFlPi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17503 FETCH (UID 38239 INTERNALDATE "20-Jul-2020 15:10:10 +0200" RFC822.SIZE 18514 BODY[] {3436}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id gbbfsD6zpjh17HlA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:10:10 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 0623861146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:10:10 +0000 (UTC)
+From: 4D Quality Assurance via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6Eg==
+Date: Mon, 20 Jul 2020 15:10:10 +0200
+Message-ID: <topic/14663/36584@discuss.4d.com>
+References: <topic/14663@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/2ed6a7aa855d70da03f5ebb38fb02349c4fbd255edd80e8ac96b8700bf18e386>
+In-Reply-To: <topic/14663@discuss.4d.com>
+Reply-To: 4D Forum <x4d+006f50e09fb7ab0bb7c172c0238adb2e@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	36f01c48-ebd5-407a-70f7-08d82cae3b7c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <AEDD52732BD02D4CAD145DC29AC1BFBD@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5wbmddICA0RFF1YWxpdHlB
+c3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0eWFzc3VyYW5jZT4gNEQg
+U3RhZmYNCkp1bHkgMjANCg0KVGhlIFN0YXR1cyBvZiB0aGlzIGJ1ZyBnb2VzIGZyb20g4oCcKFF1
+ZXVlZCnigJ0gdG8g4oCcKENsb3NlZCnigJ0NCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS90L2FjaTAxMDEwMDYt
+dGhpcy1jb21tYW5kLW5vdC1jb3JyZWN0LWluLWRlYnVnZ2VyLzE0NjYzLzI+IG9yIHJlcGx5IHRv
+IHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNl
+IHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRo
+ZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vi
+c2NyaWJlLzJlZDZhN2FhODU1ZDcwZGEwM2Y1ZWJiMzhmYjAyMzQ5YzRmYmQyNTVlZGQ4MGU4YWM5
+NmI4NzAwYmYxOGUzODY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17504 FETCH (UID 38240 INTERNALDATE "20-Jul-2020 15:12:08 +0200" RFC822.SIZE 14018 BODY[] {3184}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from vps329174.ovh.net (144.ip-213-32-23.eu [213.32.23.144]) by barracuda.waycom.net with ESMTP id cCPrHItgE8FCP4Rg for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+Received: by vps329174.ovh.net (Postfix, from userid 33)
+	id 5E9503F52E; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+From: WordPress <wordpress@blog.4d.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Topic: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Index: AQHWXpdfXLJl2Z72C0ixHcZSbDPNcg==
+Date: Mon, 20 Jul 2020 15:12:08 +0200
+Message-ID: <59704b810d68d8be5c418f1fe2fdfa6a@blog.4d.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	167e5328-88fe-4d14-4a54-08d82cae81d6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <FCE6CAA19D140746A8E629C01EDE63B1@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+U3RhdHVzIHdhcyBjaGFuZ2VkIGZvciBQb3N0ICMyNTA0MSAiQWNjZXNzIGZvcm0gb2JqZWN0IHZh
+bHVlcyBieSBwcm9ncmFtbWluZyIgYnkgU3RhY2llIExvdmluZyAoc3RhY2llLmxvdmluZ0A0ZC5j
+b20pDQpUaGlzIGFjdGlvbiB3YXMgdGFrZW4gb24gSnVseSAyMCwgMjAyMCBhdCAxOjEyIHBtIA0K
+DQpFbmdsaXNoIGNoZWNrID0+IFJlYWR5IFRvIFNjaGVkdWxlDQoNCi0tLS0tLS0tLS0tLS0tLS0t
+LS0tDQoNCj09IFBvc3QgRGV0YWlscyA9PQ0KVGl0bGU6IEFjY2VzcyBmb3JtIG9iamVjdCB2YWx1
+ZXMgYnkgcHJvZ3JhbW1pbmcNCkF1dGhvcjogRmFicmljZSBNYWluZ3VlbsOpIChmYWJyaWNlLm1h
+aW5ndWVuZUA0ZC5jb20pDQoNCj09IEFjdGlvbnMgPT0NCkFkZCBlZGl0b3JpYWwgY29tbWVudDog
+aHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1hZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1l
+ZGl0I2VkaXRvcmlhbGNvbW1lbnRzL2FkZA0KRWRpdDogaHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1h
+ZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1lZGl0DQpWaWV3OiBodHRwczovL2Jsb2cu
+NGQuY29tLz9wPTI1MDQxJnByZXZpZXc9dHJ1ZQ0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLQ0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBlbWFpbCBiZWNhdXNlIHlvdSBhcmUgc3Vic2NyaWJlZCB0byAi
+QWNjZXNzIGZvcm0gb2JqZWN0IHZhbHVlcyBieSBwcm9ncmFtbWluZyIuDQpUaGlzIGVtYWlsIHdh
+cyBzZW50IE1vbiwgMjAgSnVsIDIwMjAgMTM6MTI6MDggKzAwMDAuDQogDQo0RCBCbG9nIHwgaHR0
+cHM6Ly9ibG9nLjRkLmNvbSB8IGh0dHBzOi8vYmxvZy40ZC5jb20vd3AtYWRtaW4vDQoNCg==
+ FLAGS (\Seen))
+* 17505 FETCH (UID 38241 INTERNALDATE "20-Jul-2020 15:27:58 +0200" RFC822.SIZE 20574 BODY[] {4035}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:27:58 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id EmYgjIE6Gkj9oPZN (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:27:57 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 2C3465CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:27:57 +0000 (UTC)
+From: Christian Sakowski via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6EqkQVHOA
+Date: Mon, 20 Jul 2020 15:27:57 +0200
+Message-ID: <topic/14663/36585@discuss.4d.com>
+References: <topic/14663@discuss.4d.com> <topic/14663/36584@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/37bf6af016e3fbe29e4af48a84a68fc8a25a5f0c496cf3a2f7c917d2acd97eb5>
+In-Reply-To: <topic/14663/36584@discuss.4d.com>
+Reply-To: 4D Forum <x4d+ed1888811ba00f8e96e6f9d9a4ba2e12@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bcf4e89c-a21e-4878-8d42-08d82cb0b78a
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <8260E69095EAD34DBDC502721432DD74@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Nha293c2tpLmNocmlzdGlhbi80NS80OTNfMi5wbmddICBTYWtvd3NraS5D
+aHJpc3RpYW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Nha293c2tpLmNocmlzdGlhbj4gUGFy
+dG5lcnMNCkp1bHkgMjANCg0KRml4ZWQ/DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9hY2kwMTAxMDA2LXRo
+aXMtY29tbWFuZC1ub3QtY29ycmVjdC1pbi1kZWJ1Z2dlci8xNDY2My8zPiBvciByZXBseSB0byB0
+aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQpJbiBSZXBseSBUbw0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIw
+L3VzZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5w
+bmddICA0RFF1YWxpdHlBc3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0
+eWFzc3VyYW5jZT4gNEQgU3RhZmYNCkp1bHkgMjANClRoZSBTdGF0dXMgb2YgdGhpcyBidWcgZ29l
+cyBmcm9tIOKAnChRdWV1ZWQp4oCdIHRvIOKAnChDbG9zZWQp4oCdDQpfX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3Qv
+YWNpMDEwMTAwNi10aGlzLWNvbW1hbmQtbm90LWNvcnJlY3QtaW4tZGVidWdnZXIvMTQ2NjMvMz4g
+b3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0
+aGlzIGJlY2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2Ny
+aWJlIGZyb20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+ZW1haWwvdW5zdWJzY3JpYmUvMzdiZjZhZjAxNmUzZmJlMjllNGFmNDhhODRhNjhmYzhhMjVhNWYw
+YzQ5NmNmM2EyZjdjOTE3ZDJhY2Q5N2ViNT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17506 FETCH (UID 38242 INTERNALDATE "20-Jul-2020 15:30:36 +0200" RFC822.SIZE 23761 BODY[] {5404}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:30:36 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id GRrLJZqWL3xQfXvf (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:30:34 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A24FA6109E
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:30:34 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Topic:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Index: AQHWXFRsLRUCj4SXqUyZdlT+yG1VrKkNKAMAgAAJxICAABQMAIAAD0gAgAMEmQA=
+Date: Mon, 20 Jul 2020 15:30:34 +0200
+Message-ID: <topic/14760/36586@discuss.4d.com>
+References: <topic/14760@discuss.4d.com> <topic/14760/36478@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/e53b5a5ee508b850631edff5f0031f0a09fada06115f00bbcae3950299934559>
+In-Reply-To: <topic/14760/36478@discuss.4d.com>
+Reply-To: 4D Forum <x4d+62c6b3a88769b182a542b90b300c3f2f@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	6ed1f238-32bf-42d0-f8e0-08d82cb115c2
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F3556B2DE9199A4FBAABF5A125E3E06D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpFbiBtw6ptZSB0ZW1wcywgNEQgVmlldyBQcm8gbuKAmWEgdnJhaW1lbnQgcGx1cyBy
+aWVuIMOgIHZvaXIgYXZlYyBsYSBwYXJ0aWUgbGlzdGJveCBtYWludGVuYW50IChkw6lqw6AgcXXi
+gJlhdmFudCBj4oCZw6l0YWl0IGRpc2N1dGFibGUpLiBFdCBwb3VyIHV0aWxpc2VyIGNldHRlIGZv
+bmN0aW9ubmFsaXTDqSwgY+KAmWVzdCBkZXMgY2FzIFRSRVMgcGFydGljdWxpZXJzIGV0IGplIG5l
+IGfDqHJlIHBhcyBwbHVzIGTigJl1bmUgMTAwIGRlIGxpZ25lcyBkYW5zIGNlIHR5cGUgZGUgbGlz
+dGJveDsgZG9uYywgamUgbmUgcGVuc2UgcGFzIHF1ZSBjZWxhIHNvaXQgTEEgcsOpdm9sdXRpb24g
+cXVlIHZvdXMgZXNww6lyZXouDQoNClB1aXNxdWUgNEQgVmlldyBQcm8gbuKAmWVzdCBwbHVzIHVu
+IHBsdWdpbiBldCBlc3QgaW50w6lncsOpIFs6cm9sbF9leWVzOl0gIGRhbnMgNEQgY2V0dGUgZMOp
+Y2lzaW9uIGV0IHBsdXMgcXVlIG5vcm1hbGUuIE1haW50ZW5hbnQgY29tbWUgZWxsZSDDqXRhaXQg
+c8OpcGFyw6llIGRlIG1hbmnDqHJlIGJpZW4gcHLDqWNpc2UgcGFyIHVuZSBnZXN0aW9uIGRlIGxp
+Y2VuY2UgY+KAmWVzdCBxdeKAmWlsIGRvaXQgeSBhdm9pciB1biBsb3VwIHF1ZWxxdWUgcGFydOKA
+pg0KDQpTaSDDp2EgcGV1dCBhaWRlIMOgIGZhaXJlIMOpdm9sdWVyIGxhIHBhcnRpZSBsaXN0Ym94
+IHRhbnQgbWlldXguDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0
+IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC95b3Utbm8tbG9uZ2VyLW5lZWQtYS00ZC12
+aWV3LXByby1saWNlbnNlLXRvLXVzZS1wcm8tbGlzdC1ib3gtZmVhdHVyZXMtdGhleS1yZS1ub3ct
+ZnJlZS8xNDc2MC8xMD4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIu
+ZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS9k
+ZV9tb250YXJkLmFybmF1ZC80NS80NzFfMi5wbmddICAgZGVfTU9OVEFSRC5Bcm5hdWQ8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS91L2RlX21vbnRhcmQuYXJuYXVkPiBQYXJ0bmVycw0KSnVseSAxOA0K
+Q+KAmWVzdCBwYXMgZGUgc2EgZmF1dGUgc+KAmWlsIGdsaXNzZSwgNEQgYSBzYXZvbm7DqSBsYSBw
+ZW50ZSA6cm9mbDogW0NhcHR1cmUgZOKAmcOpY3JhbiAyMDIwLTA3LTE4IMOgIDE3LjA3LjQ2XQ0K
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9k
+aXNjdXNzLjRkLmNvbS90L3lvdS1uby1sb25nZXItbmVlZC1hLTRkLXZpZXctcHJvLWxpY2Vuc2Ut
+dG8tdXNlLXByby1saXN0LWJveC1mZWF0dXJlcy10aGV5LXJlLW5vdy1mcmVlLzE0NzYwLzEwPiBv
+ciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllvdSBhcmUgcmVjZWl2aW5nIHRo
+aXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9kZS4NCg0KVG8gdW5zdWJzY3Jp
+YmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS9l
+bWFpbC91bnN1YnNjcmliZS9lNTNiNWE1ZWU1MDhiODUwNjMxZWRmZjVmMDAzMWYwYTA5ZmFkYTA2
+MTE1ZjAwYmJjYWUzOTUwMjk5OTM0NTU5Pi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17507 FETCH (UID 38243 INTERNALDATE "20-Jul-2020 15:41:30 +0200" RFC822.SIZE 18223 BODY[] {3402}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id 1QhtBp5Gk0Ty2HJA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:41:29 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A7CE94B7
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:41:29 +0000 (UTC)
+From: Arnaud de Montard via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiA==
+Date: Mon, 20 Jul 2020 15:41:29 +0200
+Message-ID: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/39302ba8b6c9ea9259e7e914054115cfd8bf3265f2b108b2372e09cd2a6d638d>
+Reply-To: 4D Forum <x4d+f1b350403a8e05351d3eed434355723a@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	88391749-d344-458d-244d-08d82cb29bde
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <486878E0CAD9E740A4892FBA72091A96@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2RlX21vbnRhcmQuYXJuYXVkLzQ1LzQ3MV8yLnBuZ10gICBkZV9NT05UQVJE
+LkFybmF1ZDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvZGVfbW9udGFyZC5hcm5hdWQ+IFBhcnRu
+ZXJzDQpKdWx5IDIwDQoNCkrigJlhaSBiZWF1IHRlc3RlciBldCByZSB0ZXN0ZXIsIGplIG5lIHZv
+aXMgcGFzIGxhIG1vaW5kcmUgYW3DqWxpb3JhdGlvbiBkZSBwZXJmb3JtYW5jZSBhcHBvcnTDqWUg
+cGFyIGNldHRlIGNvbW1hbmRlIDogbMOpZ2VuZGUgdXJiYWluZSA/DQoNCl9fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+dC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMT4gb3IgcmVwbHkgdG8gdGhp
+cyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2UgeW91
+IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhlc2Ug
+ZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJzY3Jp
+YmUvMzkzMDJiYThiNmM5ZWE5MjU5ZTdlOTE0MDU0MTE1Y2ZkOGJmMzI2NWYyYjEwOGIyMzcyZTA5
+Y2QyYTZkNjM4ZD4uDQoNCg0K
+ FLAGS (\Seen))
+* 17508 FETCH (UID 38244 INTERNALDATE "20-Jul-2020 15:43:39 +0200" RFC822.SIZE 19993 BODY[] {3750}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:43:39 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id CBte01E8Y2rH8gxu (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:43:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:5::259:de65:d819])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 6947661331
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:43:38 +0000 (UTC)
+From: Tom Benedict via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Project Mode Component[English Community]
+Thread-Topic: [4D Forum] Project Mode Component[English Community]
+Thread-Index: AQHWXoON0mpwAbr7HUmBi4R1uL6AhakQWPwA
+Date: Mon, 20 Jul 2020 15:43:38 +0200
+Message-ID: <topic/14786/36588@discuss.4d.com>
+References: <topic/14786@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/62bacf73c0f11142a7829c65a2911c22922cefbd79d0a2ba9557880b707073ff>
+In-Reply-To: <topic/14786@discuss.4d.com>
+Reply-To: 4D Forum <x4d+e52a161a41c48a2e39f58e679b4e81ea@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	5b9cc318-f3aa-4628-842c-08d82cb2e87c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <855F231BC5A48B4BAD072981D747968D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci90L2E1ODdmNi80NS5wbmdd
+ICAgICAgIFRvbV9CZW5lZGljdDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdG9tX2JlbmVkaWN0
+Pg0KSnVseSAyMA0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3Vz
+ZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tL2dyYWhhbV9sYW5nbGV5LzQwLzE1NThfMi5wbmddIEdy
+YWhhbV9MYW5nbGV5Og0KDQpXaGF0IGlzIHRoZSBjdXJyZW50IGJlc3QgcHJhY3RpY2UgdG8gYnVp
+bGQgQ29tcG9uZW50cyBpbiBQcm9qZWN0IE1vZGU/DQoNCkkgZG9u4oCZdCBoYXZlIGFueSBleHBl
+cmllbmNlIGluIDREIFByb2plY3QgTW9kZSwgYnV0IEkgd291bGQgZXhwZWN0IHRoYXQgQ29tcG9u
+ZW50IGNvZGUgc2hvdWxkIGJlIG1hbmFnZWQgYnkgdGhlIHNhbWUgdG9vbCB1c2VkIHRvIG1hbmFn
+ZSB0aGUgcmVzdCBvZiB0aGUgc291cmNlIGNvZGUuIChHSXQsIENWUywgU1ZOLCBQZXJmb3JjZSwg
+ZXRjKS4NCg0KVG9tIEJlbmVkaWN0DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9wcm9qZWN0LW1vZGUtY29t
+cG9uZW50LzE0Nzg2LzM+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2Rl
+Lg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vic2NyaWJlLzYyYmFjZjczYzBmMTExNDJhNzgyOWM2
+NWEyOTExYzIyOTIyY2VmYmQ3OWQwYTJiYTk1NTc4ODBiNzA3MDczZmY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17509 FETCH (UID 38245 INTERNALDATE "20-Jul-2020 15:49:32 +0200" RFC822.SIZE 18996 BODY[] {3577}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id yge8IER8hpoVgUam (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:49:32 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:3::25b:1b9d:93d0])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id EB0DA61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:49:31 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiKkQWnGA
+Date: Mon, 20 Jul 2020 15:49:31 +0200
+Message-ID: <topic/14789/36589@discuss.4d.com>
+References: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1a84b8e1bd8366e65e1b9760e4526fbaa549a9d6b0bb613fc42428e926eee54f>
+In-Reply-To: <topic/14789@discuss.4d.com>
+Reply-To: 4D Forum <x4d+5fe8e317fd52b8500a151dde786a1ec3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	df4785ec-b61a-4252-288a-08d82cb3bb40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <66E54A2B1590974C98B9B41EBBBDAEAA@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpDb21tZSBjZWxhIGplIGRpcmFpcyBxdWUgcG91ciB1bmUgcmVjaGVyY2hlIHPDqXF1
+ZW50aWVsbGUgKHRyw6hzIGxvbmd1ZSkgb3VpLCBtYWlzIGRhbnMgbGVzIGF1dHJlcyBjYXMsIGVz
+dC1jZSBiaWVuIGfDqXLDqSA/IEVuIHBsdXMsIGF2ZWMgT1JEQSwgbGUgbXVsdGl0aHJlYWQsIGV0
+IGxlcyBTU0QsIGzigJl1dGlsaXTDqSBkb2l0IHPigJlhbW9pbmRyaXIuDQoNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMj4gb3IgcmVwbHkgdG8g
+dGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2Ug
+eW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhl
+c2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJz
+Y3JpYmUvMWE4NGI4ZTFiZDgzNjZlNjVlMWI5NzYwZTQ1MjZmYmFhNTQ5YTlkNmIwYmI2MTNmYzQy
+NDI4ZTkyNmVlZTU0Zj4uDQoNCg0K
+ FLAGS (\Seen))
+* 17510 FETCH (UID 38246 INTERNALDATE "20-Jul-2020 16:02:17 +0200" RFC822.SIZE 20143 BODY[] {3814}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id RLBRt1YY6Mu7XBvJ (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 16:02:16 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 271BF5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:02:16 +0000 (UTC)
+From: mikey via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Topic: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Index: AQHWXG9/0VWEDXFnkEG30hXyKasy/qkNNOoAgAABbwCAAywAAA==
+Date: Mon, 20 Jul 2020 16:02:16 +0200
+Message-ID: <topic/14623/36590@discuss.4d.com>
+References: <topic/14623@discuss.4d.com> <topic/14623/36470@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/954da57dbc8f387b2e1028a495a3705676cb1fa071878af8f5913728fcd7a7e8>
+In-Reply-To: <topic/14623/36470@discuss.4d.com>
+Reply-To: 4D Forum <x4d+dd5287bf45f49ec9bb6713ff3a23ef65@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	956ac6b5-4e2e-4dfe-ef26-08d82cb58343
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6610ED076FDAD7469519D30FA6CDC916@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9tLzQzOWQ1ZS80NS5wbmdd
+ICAgICAgIG1pa2V5PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9taWtleT4gUGFydG5lcnMNCkp1
+bHkgMjANCg0KaWYgdGhlcmUgd2FzIGV2ZXIgYSByZWFzb24gdG8gcmVtb3ZlIHRva2Vuc+KApg0K
+DQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL3QvNGQtdjE4LXI0LWJldGEtdGhlLWZ1bGwtbGlzdC1vZi1mZWF0dXJl
+cy8xNDYyMy8xMz4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIuZGlz
+Y291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS92ZGwv
+NDUvOV8yLnBuZ10gICB2ZGw8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3ZkbD4gNEQgU3RhZmYN
+Ckp1bHkgMTgNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGlj
+PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC80ZC12MTgtcjQtYmV0YS10aGUtZnVsbC1saXN0LW9m
+LWZlYXR1cmVzLzE0NjIzLzEzPiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoN
+CllvdSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3Qg
+bW9kZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0
+cHM6Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85NTRkYTU3ZGJjOGYzODdiMmUx
+MDI4YTQ5NWEzNzA1Njc2Y2IxZmEwNzE4NzhhZjhmNTkxMzcyOGZjZDdhN2U4Pi4NCg0KDQo=
+ FLAGS (\Seen \Recent))
+A053 OK FETCH completed.
+
+644	2020-07-20T16:03:48.778	1	12	S < "A053 OK FETCH completed."
+649	2020-07-20T16:05:05.721	1	12	### IMAP Failed to send request, error: srvr:2
+650	2020-07-20T16:05:05.725	1	12	S < "A054 OK CLOSE completed."
+651	2020-07-20T16:05:05.725	1	12	### IMAP Failed to send request, error: srvr:2
+652	2020-07-20T16:05:05.725	1	12	### IMAP Connection closed
+1	2020-07-20T16:05:48.186	3	4	### IMAP Connected to 'exchange.4d.com' on port 143. (unsecured)
+2	2020-07-20T16:05:48.186	3	4	S < "* OK The Microsoft Exchange IMAP4 service is ready."
+3	2020-07-20T16:05:48.187	3	4	C > "A001 CAPABILITY"
+4	2020-07-20T16:05:48.190	3	4	S < "* CAPABILITY IMAP4 IMAP4rev1 LOGINDISABLED STARTTLS AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+5	2020-07-20T16:05:48.190	3	4	S < "A001 OK CAPABILITY completed."
+6	2020-07-20T16:05:48.191	3	4	C > "A002 STARTTLS"
+7	2020-07-20T16:05:48.194	3	4	S < "A002 OK Begin TLS negotiation now."
+8	2020-07-20T16:05:48.195	3	4	### IMAP Encrypted TLS session started.
+9	2020-07-20T16:05:48.243	3	4	C > "A003 CAPABILITY"
+10	2020-07-20T16:05:48.246	3	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+11	2020-07-20T16:05:48.246	3	4	S < "A003 OK CAPABILITY completed."
+12	2020-07-20T16:05:48.246	3	4	C > "A004 AUTHENTICATE PLAIN"
+13	2020-07-20T16:05:48.249	3	4	S < "+ "
+14	2020-07-20T16:05:48.249	3	4	C > "************************************************"
+15	2020-07-20T16:05:48.850	3	4	S < "A004 OK AUTHENTICATE completed."
+16	2020-07-20T16:05:48.853	3	4	C > "A005 LIST "" "*""
+17	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+18	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+19	2020-07-20T16:05:48.926	3	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+20	2020-07-20T16:05:48.926	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+21	2020-07-20T16:05:48.926	3	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+22	2020-07-20T16:05:48.926	3	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+23	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+24	2020-07-20T16:05:48.926	3	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+25	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+26	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasChildren) "/" Divers"
+27	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+28	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+29	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" Divers/Entretien"
+30	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+31	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+32	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+33	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+34	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+35	2020-07-20T16:05:48.926	3	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+36	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+37	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+38	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+39	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Journal"
+40	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Notes"
+41	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+42	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+43	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+44	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+45	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+46	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasChildren) "/" Projets"
+47	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+48	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+49	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Blog"
+50	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+51	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+52	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+53	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+54	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+55	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+56	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+57	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+58	2020-07-20T16:05:48.927	3	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+59	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+60	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+61	2020-07-20T16:05:48.927	3	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+62	2020-07-20T16:05:48.927	3	4	S < "A005 OK LIST completed."
+63	2020-07-20T16:05:48.931	3	4	C > "A006 STATUS "4D Workplace" (MESSAGES RECENT)"
+64	2020-07-20T16:05:48.938	3	4	S < "* STATUS "4D Workplace" (MESSAGES 0 RECENT 0) "
+65	2020-07-20T16:05:48.938	3	4	S < "A006 OK STATUS completed."
+66	2020-07-20T16:05:48.939	3	4	C > "A007 STATUS "Abonnements RSS" (MESSAGES RECENT)"
+67	2020-07-20T16:05:48.954	3	4	S < "* STATUS "Abonnements RSS" (MESSAGES 0 RECENT 0) "
+68	2020-07-20T16:05:48.954	3	4	S < "A007 OK STATUS completed."
+69	2020-07-20T16:05:48.954	3	4	C > "A008 STATUS INBOX (MESSAGES RECENT)"
+70	2020-07-20T16:05:49.408	3	4	S < "* STATUS INBOX (MESSAGES 17510 RECENT 0) "
+71	2020-07-20T16:05:49.408	3	4	S < "A008 OK STATUS completed."
+72	2020-07-20T16:05:49.409	3	4	C > "A009 STATUS "Bo&AO4-te d'envoi" (MESSAGES RECENT)"
+73	2020-07-20T16:05:49.419	3	4	S < "* STATUS "Bo&AO4-te d'envoi" (MESSAGES 1 RECENT 0) "
+74	2020-07-20T16:05:49.419	3	4	S < "A009 OK STATUS completed."
+75	2020-07-20T16:05:49.420	3	4	C > "A010 STATUS Brouillons (MESSAGES RECENT)"
+76	2020-07-20T16:05:49.429	3	4	S < "* STATUS Brouillons (MESSAGES 0 RECENT 0) "
+77	2020-07-20T16:05:49.429	3	4	S < "A010 OK STATUS completed."
+78	2020-07-20T16:05:49.430	3	4	C > "A011 STATUS Calendrier (MESSAGES RECENT)"
+79	2020-07-20T16:05:49.463	3	4	S < "* STATUS Calendrier (MESSAGES 1115 RECENT 16) "
+80	2020-07-20T16:05:49.464	3	4	S < "A011 OK STATUS completed."
+81	2020-07-20T16:05:49.465	3	4	C > "A012 STATUS Calendrier/Anniversaires (MESSAGES RECENT)"
+82	2020-07-20T16:05:49.471	3	4	S < "* STATUS Calendrier/Anniversaires (MESSAGES 0 RECENT 0) "
+83	2020-07-20T16:05:49.471	3	4	S < "A012 OK STATUS completed."
+84	2020-07-20T16:05:49.473	3	4	C > "A013 STATUS Contacts (MESSAGES RECENT)"
+85	2020-07-20T16:05:49.478	3	4	S < "* STATUS Contacts (MESSAGES 0 RECENT 0) "
+86	2020-07-20T16:05:49.478	3	4	S < "A013 OK STATUS completed."
+87	2020-07-20T16:05:49.479	3	4	C > "A014 STATUS "Courrier ind&AOk-sirable" (MESSAGES RECENT)"
+88	2020-07-20T16:05:49.489	3	4	S < "* STATUS "Courrier ind&AOk-sirable" (MESSAGES 0 RECENT 0) "
+89	2020-07-20T16:05:49.489	3	4	S < "A014 OK STATUS completed."
+90	2020-07-20T16:05:49.490	3	4	C > "A015 STATUS Divers (MESSAGES RECENT)"
+91	2020-07-20T16:05:49.497	3	4	S < "* STATUS Divers (MESSAGES 30 RECENT 0) "
+92	2020-07-20T16:05:49.497	3	4	S < "A015 OK STATUS completed."
+93	2020-07-20T16:05:49.498	3	4	C > "A016 STATUS Divers/CIR (MESSAGES RECENT)"
+94	2020-07-20T16:05:49.517	3	4	S < "* STATUS Divers/CIR (MESSAGES 7 RECENT 0) "
+95	2020-07-20T16:05:49.517	3	4	S < "A016 OK STATUS completed."
+96	2020-07-20T16:05:49.518	3	4	C > "A017 STATUS "Divers/Code exemple" (MESSAGES RECENT)"
+97	2020-07-20T16:05:49.526	3	4	S < "* STATUS "Divers/Code exemple" (MESSAGES 1 RECENT 0) "
+98	2020-07-20T16:05:49.526	3	4	S < "A017 OK STATUS completed."
+99	2020-07-20T16:05:49.526	3	4	C > "A018 STATUS Divers/Entretien (MESSAGES RECENT)"
+100	2020-07-20T16:05:49.533	3	4	S < "* STATUS Divers/Entretien (MESSAGES 5 RECENT 5) "
+101	2020-07-20T16:05:49.533	3	4	S < "A018 OK STATUS completed."
+102	2020-07-20T16:05:49.535	3	4	C > "A019 STATUS Divers/Priv&AOk- (MESSAGES RECENT)"
+103	2020-07-20T16:05:49.540	3	4	S < "* STATUS Divers/Priv&AOk- (MESSAGES 1 RECENT 1) "
+104	2020-07-20T16:05:49.540	3	4	S < "A019 OK STATUS completed."
+105	2020-07-20T16:05:49.541	3	4	C > "A020 STATUS Divers/test1 (MESSAGES RECENT)"
+106	2020-07-20T16:05:49.547	3	4	S < "* STATUS Divers/test1 (MESSAGES 0 RECENT 0) "
+107	2020-07-20T16:05:49.547	3	4	S < "A020 OK STATUS completed."
+108	2020-07-20T16:05:49.548	3	4	C > "A021 STATUS Divers/test1/test2 (MESSAGES RECENT)"
+109	2020-07-20T16:05:49.555	3	4	S < "* STATUS Divers/test1/test2 (MESSAGES 0 RECENT 0) "
+110	2020-07-20T16:05:49.555	3	4	S < "A021 OK STATUS completed."
+111	2020-07-20T16:05:49.556	3	4	C > "A022 STATUS Divers/test1/test2/test3 (MESSAGES RECENT)"
+112	2020-07-20T16:05:49.563	3	4	S < "* STATUS Divers/test1/test2/test3 (MESSAGES 2 RECENT 0) "
+113	2020-07-20T16:05:49.563	3	4	S < "A022 OK STATUS completed."
+114	2020-07-20T16:05:49.565	3	4	C > "A023 STATUS Divers/VPN (MESSAGES RECENT)"
+115	2020-07-20T16:05:49.571	3	4	S < "* STATUS Divers/VPN (MESSAGES 11 RECENT 0) "
+116	2020-07-20T16:05:49.571	3	4	S < "A023 OK STATUS completed."
+117	2020-07-20T16:05:49.573	3	4	C > "A024 STATUS "Divers/VPN/test inferior" (MESSAGES RECENT)"
+118	2020-07-20T16:05:49.578	3	4	S < "* STATUS "Divers/VPN/test inferior" (MESSAGES 0 RECENT 0) "
+119	2020-07-20T16:05:49.578	3	4	S < "A024 OK STATUS completed."
+120	2020-07-20T16:05:49.580	3	4	C > "A025 STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES RECENT)"
+121	2020-07-20T16:05:49.695	3	4	S < "* STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES 3717 RECENT 56) "
+122	2020-07-20T16:05:49.695	3	4	S < "A025 OK STATUS completed."
+123	2020-07-20T16:05:49.696	3	4	C > "A026 STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES RECENT)"
+124	2020-07-20T16:05:49.708	3	4	S < "* STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES 248 RECENT 246) "
+125	2020-07-20T16:05:49.708	3	4	S < "A026 OK STATUS completed."
+126	2020-07-20T16:05:49.709	3	4	C > "A027 STATUS "Forum4D " (MESSAGES RECENT)"
+127	2020-07-20T16:05:49.721	3	4	S < "* STATUS "Forum4D " (MESSAGES 14 RECENT 0) "
+128	2020-07-20T16:05:49.722	3	4	S < "A027 OK STATUS completed."
+129	2020-07-20T16:05:49.722	3	4	C > "A028 STATUS Journal (MESSAGES RECENT)"
+130	2020-07-20T16:05:49.730	3	4	S < "* STATUS Journal (MESSAGES 0 RECENT 0) "
+131	2020-07-20T16:05:49.730	3	4	S < "A028 OK STATUS completed."
+132	2020-07-20T16:05:49.731	3	4	C > "A029 STATUS Notes (MESSAGES RECENT)"
+133	2020-07-20T16:05:49.738	3	4	S < "* STATUS Notes (MESSAGES 4 RECENT 0) "
+134	2020-07-20T16:05:49.738	3	4	S < "A029 OK STATUS completed."
+135	2020-07-20T16:05:49.743	3	4	C > "A030 STATUS "Perforce review" (MESSAGES RECENT)"
+136	2020-07-20T16:05:49.761	3	4	S < "* STATUS "Perforce review" (MESSAGES 372 RECENT 25) "
+137	2020-07-20T16:05:49.761	3	4	S < "A030 OK STATUS completed."
+138	2020-07-20T16:05:49.762	3	4	C > "A031 STATUS "Probl&AOg-mes de synchronisation" (MESSAGES RECENT)"
+139	2020-07-20T16:05:49.769	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation" (MESSAGES 0 RECENT 0) "
+140	2020-07-20T16:05:49.769	3	4	S < "A031 OK STATUS completed."
+141	2020-07-20T16:05:49.770	3	4	C > "A032 STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES RECENT)"
+142	2020-07-20T16:05:49.783	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES 178 RECENT 51) "
+143	2020-07-20T16:05:49.783	3	4	S < "A032 OK STATUS completed."
+144	2020-07-20T16:05:49.784	3	4	C > "A033 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES RECENT)"
+145	2020-07-20T16:05:49.789	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES 0 RECENT 0) "
+146	2020-07-20T16:05:49.790	3	4	S < "A033 OK STATUS completed."
+147	2020-07-20T16:05:49.791	3	4	C > "A034 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES RECENT)"
+148	2020-07-20T16:05:49.797	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES 0 RECENT 0) "
+149	2020-07-20T16:05:49.797	3	4	S < "A034 OK STATUS completed."
+150	2020-07-20T16:05:49.798	3	4	C > "A035 STATUS Projets (MESSAGES RECENT)"
+151	2020-07-20T16:05:49.820	3	4	S < "* STATUS Projets (MESSAGES 0 RECENT 0) "
+152	2020-07-20T16:05:49.820	3	4	S < "A035 OK STATUS completed."
+153	2020-07-20T16:05:49.821	3	4	C > "A036 STATUS "Projets/4D pack" (MESSAGES RECENT)"
+154	2020-07-20T16:05:49.829	3	4	S < "* STATUS "Projets/4D pack" (MESSAGES 6 RECENT 0) "
+155	2020-07-20T16:05:49.829	3	4	S < "A036 OK STATUS completed."
+156	2020-07-20T16:05:49.830	3	4	C > "A037 STATUS "Projets/4D View - Spread JS" (MESSAGES RECENT)"
+157	2020-07-20T16:05:49.839	3	4	S < "* STATUS "Projets/4D View - Spread JS" (MESSAGES 37 RECENT 1) "
+158	2020-07-20T16:05:49.839	3	4	S < "A037 OK STATUS completed."
+159	2020-07-20T16:05:49.840	3	4	C > "A038 STATUS Projets/Blog (MESSAGES RECENT)"
+160	2020-07-20T16:05:49.848	3	4	S < "* STATUS Projets/Blog (MESSAGES 28 RECENT 0) "
+161	2020-07-20T16:05:49.848	3	4	S < "A038 OK STATUS completed."
+162	2020-07-20T16:05:49.848	3	4	C > "A039 STATUS Projets/Demo (MESSAGES RECENT)"
+163	2020-07-20T16:05:49.862	3	4	S < "* STATUS Projets/Demo (MESSAGES 5 RECENT 0) "
+164	2020-07-20T16:05:49.862	3	4	S < "A039 OK STATUS completed."
+165	2020-07-20T16:05:49.862	3	4	C > "A040 STATUS Projets/Divers (MESSAGES RECENT)"
+166	2020-07-20T16:05:49.870	3	4	S < "* STATUS Projets/Divers (MESSAGES 2 RECENT 2) "
+167	2020-07-20T16:05:49.870	3	4	S < "A040 OK STATUS completed."
+168	2020-07-20T16:05:49.871	3	4	C > "A041 STATUS Projets/Formation (MESSAGES RECENT)"
+169	2020-07-20T16:05:49.876	3	4	S < "* STATUS Projets/Formation (MESSAGES 1 RECENT 1) "
+170	2020-07-20T16:05:49.876	3	4	S < "A041 OK STATUS completed."
+171	2020-07-20T16:05:49.877	3	4	C > "A042 STATUS "Projets/Remote debugger" (MESSAGES RECENT)"
+172	2020-07-20T16:05:49.884	3	4	S < "* STATUS "Projets/Remote debugger" (MESSAGES 1 RECENT 1) "
+173	2020-07-20T16:05:49.884	3	4	S < "A042 OK STATUS completed."
+174	2020-07-20T16:05:49.885	3	4	C > "A043 STATUS "Projets/SMTP - mail" (MESSAGES RECENT)"
+175	2020-07-20T16:05:49.891	3	4	S < "* STATUS "Projets/SMTP - mail" (MESSAGES 7 RECENT 7) "
+176	2020-07-20T16:05:49.891	3	4	S < "A043 OK STATUS completed."
+177	2020-07-20T16:05:49.892	3	4	C > "A044 STATUS "Projets/Standard actions" (MESSAGES RECENT)"
+178	2020-07-20T16:05:49.898	3	4	S < "* STATUS "Projets/Standard actions" (MESSAGES 3 RECENT 3) "
+179	2020-07-20T16:05:49.898	3	4	S < "A044 OK STATUS completed."
+180	2020-07-20T16:05:49.898	3	4	C > "A045 STATUS Projets/Utube (MESSAGES RECENT)"
+181	2020-07-20T16:05:49.905	3	4	S < "* STATUS Projets/Utube (MESSAGES 1 RECENT 1) "
+182	2020-07-20T16:05:49.905	3	4	S < "A045 OK STATUS completed."
+183	2020-07-20T16:05:49.906	3	4	C > "A046 STATUS "Projets/Web server" (MESSAGES RECENT)"
+184	2020-07-20T16:05:49.912	3	4	S < "* STATUS "Projets/Web server" (MESSAGES 1 RECENT 0) "
+185	2020-07-20T16:05:49.912	3	4	S < "A046 OK STATUS completed."
+186	2020-07-20T16:05:49.913	3	4	C > "A047 STATUS redmine (MESSAGES RECENT)"
+187	2020-07-20T16:05:49.951	3	4	S < "* STATUS redmine (MESSAGES 890 RECENT 300) "
+188	2020-07-20T16:05:49.951	3	4	S < "A047 OK STATUS completed."
+189	2020-07-20T16:05:49.951	3	4	C > "A048 STATUS T&AOI-ches (MESSAGES RECENT)"
+190	2020-07-20T16:05:49.958	3	4	S < "* STATUS T&AOI-ches (MESSAGES 0 RECENT 0) "
+191	2020-07-20T16:05:49.958	3	4	S < "A048 OK STATUS completed."
+192	2020-07-20T16:05:49.959	3	4	C > "A049 STATUS Twitter (MESSAGES RECENT)"
+193	2020-07-20T16:05:49.971	3	4	S < "* STATUS Twitter (MESSAGES 198 RECENT 0) "
+194	2020-07-20T16:05:49.971	3	4	S < "A049 OK STATUS completed."
+195	2020-07-20T16:05:49.972	3	4	C > "A050 STATUS WordPress (MESSAGES RECENT)"
+196	2020-07-20T16:05:49.979	3	4	S < "* STATUS WordPress (MESSAGES 9 RECENT 0) "
+197	2020-07-20T16:05:49.979	3	4	S < "A050 OK STATUS completed."
+260	2020-07-20T16:05:50.506	3	4	C > "A051 LOGOUT"
+261	2020-07-20T16:05:50.510	3	4	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+262	2020-07-20T16:05:50.510	3	4	### IMAP Connection closed
+258	3	4	C > "A001 CAPABILITY"
+201	2020-07-20T16:05:50.261	3	4	S < "* CAPABILITY IMAP4 IMAP4rev1 LOGINDISABLED STARTTLS AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+202	2020-07-20T16:05:50.262	3	4	S < "A001 OK CAPABILITY completed."
+203	2020-07-20T16:05:50.262	3	4	C > "A002 STARTTLS"
+204	2020-07-20T16:05:50.265	3	4	S < "A002 OK Begin TLS negotiation now."
+205	2020-07-20T16:05:50.265	3	4	### IMAP Encrypted TLS session started.
+206	2020-07-20T16:05:50.301	3	4	C > "A003 CAPABILITY"
+207	2020-07-20T16:05:50.303	3	4	S < "* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=NTLM AUTH=GSSAPI SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+"
+208	2020-07-20T16:05:50.303	3	4	S < "A003 OK CAPABILITY completed."
+209	2020-07-20T16:05:50.304	3	4	C > "A004 AUTHENTICATE PLAIN"
+210	2020-07-20T16:05:50.306	3	4	S < "+ "
+211	2020-07-20T16:05:50.306	3	4	C > "************************************************"
+212	2020-07-20T16:05:50.447	3	4	S < "A004 OK AUTHENTICATE completed."
+213	2020-07-20T16:05:50.447	3	4	C > "A005 LIST "" "*""
+214	2020-07-20T16:05:50.502	3	4	S < "* LIST (\HasNoChildren) "/" "4D Workplace""
+215	2020-07-20T16:05:50.502	3	4	S < "* LIST (\HasNoChildren) "/" "Abonnements RSS""
+216	2020-07-20T16:05:50.502	3	4	S < "* LIST (\Marked \HasNoChildren) "/" INBOX"
+217	2020-07-20T16:05:50.502	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Bo&AO4-te d'envoi""
+218	2020-07-20T16:05:50.502	3	4	S < "* LIST (\Marked \HasNoChildren \Drafts) "/" Brouillons"
+219	2020-07-20T16:05:50.503	3	4	S < "* LIST (\Marked \HasChildren) "/" Calendrier"
+220	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Calendrier/Anniversaires"
+221	2020-07-20T16:05:50.503	3	4	S < "* LIST (\Marked \HasChildren) "/" Contacts"
+222	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren \Junk) "/" "Courrier ind&AOk-sirable""
+223	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasChildren) "/" Divers"
+224	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Divers/CIR"
+225	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" "Divers/Code exemple""
+226	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Divers/Entretien"
+227	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Divers/Priv&AOk-"
+228	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasChildren) "/" Divers/test1"
+229	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasChildren) "/" Divers/test1/test2"
+230	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Divers/test1/test2/test3"
+231	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasChildren) "/" Divers/VPN"
+232	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" "Divers/VPN/test inferior""
+233	2020-07-20T16:05:50.503	3	4	S < "* LIST (\Marked \HasNoChildren \Sent) "/" "&AMk-l&AOk-ments envoy&AOk-s""
+234	2020-07-20T16:05:50.503	3	4	S < "* LIST (\Marked \HasNoChildren \Trash) "/" "&AMk-l&AOk-ments supprim&AOk-s""
+235	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" "Forum4D ""
+236	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Journal"
+237	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasNoChildren) "/" Notes"
+238	2020-07-20T16:05:50.503	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Perforce review""
+239	2020-07-20T16:05:50.503	3	4	S < "* LIST (\HasChildren) "/" "Probl&AOg-mes de synchronisation""
+240	2020-07-20T16:05:50.504	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Probl&AOg-mes de synchronisation/Conflits""
+241	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs du serveur""
+242	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Probl&AOg-mes de synchronisation/&AMk-checs locaux""
+243	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasChildren) "/" Projets"
+244	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/4D pack""
+245	2020-07-20T16:05:50.504	3	4	S < "* LIST (\Marked \HasNoChildren) "/" "Projets/4D View - Spread JS""
+246	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Blog"
+247	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Demo"
+248	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Divers"
+249	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Formation"
+250	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Remote debugger""
+251	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/SMTP - mail""
+252	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Standard actions""
+253	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Projets/Utube"
+254	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" "Projets/Web server""
+255	2020-07-20T16:05:50.504	3	4	S < "* LIST (\Marked \HasNoChildren) "/" redmine"
+256	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" T&AOI-ches"
+257	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" Twitter"
+258	2020-07-20T16:05:50.504	3	4	S < "* LIST (\HasNoChildren) "/" WordPress"
+259	2020-07-20T16:05:50.504	3	4	S < "A005 OK LIST completed."
+263	2020-07-20T16:05:50.511	3	4	C > "A006 STATUS "4D Workplace" (MESSAGES RECENT)"
+264	2020-07-20T16:05:50.536	3	4	S < "* STATUS "4D Workplace" (MESSAGES 0 RECENT 0) "
+265	2020-07-20T16:05:50.536	3	4	S < "A006 OK STATUS completed."
+266	2020-07-20T16:05:50.537	3	4	C > "A007 STATUS "Abonnements RSS" (MESSAGES RECENT)"
+267	2020-07-20T16:05:50.543	3	4	S < "* STATUS "Abonnements RSS" (MESSAGES 0 RECENT 0) "
+268	2020-07-20T16:05:50.543	3	4	S < "A007 OK STATUS completed."
+269	2020-07-20T16:05:50.543	3	4	C > "A008 STATUS INBOX (MESSAGES RECENT)"
+270	2020-07-20T16:05:50.976	3	4	S < "* STATUS INBOX (MESSAGES 17510 RECENT 0) "
+271	2020-07-20T16:05:50.976	3	4	S < "A008 OK STATUS completed."
+272	2020-07-20T16:05:50.976	3	4	C > "A009 STATUS "Bo&AO4-te d'envoi" (MESSAGES RECENT)"
+273	2020-07-20T16:05:50.982	3	4	S < "* STATUS "Bo&AO4-te d'envoi" (MESSAGES 1 RECENT 0) "
+274	2020-07-20T16:05:50.983	3	4	S < "A009 OK STATUS completed."
+275	2020-07-20T16:05:50.983	3	4	C > "A010 STATUS Brouillons (MESSAGES RECENT)"
+276	2020-07-20T16:05:50.988	3	4	S < "* STATUS Brouillons (MESSAGES 0 RECENT 0) "
+277	2020-07-20T16:05:50.988	3	4	S < "A010 OK STATUS completed."
+278	2020-07-20T16:05:50.989	3	4	C > "A011 STATUS Calendrier (MESSAGES RECENT)"
+279	2020-07-20T16:05:51.030	3	4	S < "* STATUS Calendrier (MESSAGES 1115 RECENT 16) "
+280	2020-07-20T16:05:51.030	3	4	S < "A011 OK STATUS completed."
+281	2020-07-20T16:05:51.031	3	4	C > "A012 STATUS Calendrier/Anniversaires (MESSAGES RECENT)"
+282	2020-07-20T16:05:51.037	3	4	S < "* STATUS Calendrier/Anniversaires (MESSAGES 0 RECENT 0) "
+283	2020-07-20T16:05:51.037	3	4	S < "A012 OK STATUS completed."
+284	2020-07-20T16:05:51.038	3	4	C > "A013 STATUS Contacts (MESSAGES RECENT)"
+285	2020-07-20T16:05:51.045	3	4	S < "* STATUS Contacts (MESSAGES 0 RECENT 0) "
+286	2020-07-20T16:05:51.045	3	4	S < "A013 OK STATUS completed."
+287	2020-07-20T16:05:51.046	3	4	C > "A014 STATUS "Courrier ind&AOk-sirable" (MESSAGES RECENT)"
+288	2020-07-20T16:05:51.056	3	4	S < "* STATUS "Courrier ind&AOk-sirable" (MESSAGES 0 RECENT 0) "
+289	2020-07-20T16:05:51.056	3	4	S < "A014 OK STATUS completed."
+290	2020-07-20T16:05:51.057	3	4	C > "A015 STATUS Divers (MESSAGES RECENT)"
+291	2020-07-20T16:05:51.064	3	4	S < "* STATUS Divers (MESSAGES 30 RECENT 0) "
+292	2020-07-20T16:05:51.064	3	4	S < "A015 OK STATUS completed."
+293	2020-07-20T16:05:51.065	3	4	C > "A016 STATUS Divers/CIR (MESSAGES RECENT)"
+294	2020-07-20T16:05:51.072	3	4	S < "* STATUS Divers/CIR (MESSAGES 7 RECENT 0) "
+295	2020-07-20T16:05:51.072	3	4	S < "A016 OK STATUS completed."
+296	2020-07-20T16:05:51.073	3	4	C > "A017 STATUS "Divers/Code exemple" (MESSAGES RECENT)"
+297	2020-07-20T16:05:51.079	3	4	S < "* STATUS "Divers/Code exemple" (MESSAGES 1 RECENT 0) "
+298	2020-07-20T16:05:51.080	3	4	S < "A017 OK STATUS completed."
+299	2020-07-20T16:05:51.080	3	4	C > "A018 STATUS Divers/Entretien (MESSAGES RECENT)"
+300	2020-07-20T16:05:51.088	3	4	S < "* STATUS Divers/Entretien (MESSAGES 5 RECENT 5) "
+301	2020-07-20T16:05:51.089	3	4	S < "A018 OK STATUS completed."
+302	2020-07-20T16:05:51.090	3	4	C > "A019 STATUS Divers/Priv&AOk- (MESSAGES RECENT)"
+303	2020-07-20T16:05:51.098	3	4	S < "* STATUS Divers/Priv&AOk- (MESSAGES 1 RECENT 1) "
+304	2020-07-20T16:05:51.098	3	4	S < "A019 OK STATUS completed."
+305	2020-07-20T16:05:51.098	3	4	C > "A020 STATUS Divers/test1 (MESSAGES RECENT)"
+306	2020-07-20T16:05:51.105	3	4	S < "* STATUS Divers/test1 (MESSAGES 0 RECENT 0) "
+307	2020-07-20T16:05:51.105	3	4	S < "A020 OK STATUS completed."
+308	2020-07-20T16:05:51.106	3	4	C > "A021 STATUS Divers/test1/test2 (MESSAGES RECENT)"
+309	2020-07-20T16:05:51.113	3	4	S < "* STATUS Divers/test1/test2 (MESSAGES 0 RECENT 0) "
+310	2020-07-20T16:05:51.113	3	4	S < "A021 OK STATUS completed."
+311	2020-07-20T16:05:51.114	3	4	C > "A022 STATUS Divers/test1/test2/test3 (MESSAGES RECENT)"
+312	2020-07-20T16:05:51.121	3	4	S < "* STATUS Divers/test1/test2/test3 (MESSAGES 2 RECENT 0) "
+313	2020-07-20T16:05:51.121	3	4	S < "A022 OK STATUS completed."
+314	2020-07-20T16:05:51.123	3	4	C > "A023 STATUS Divers/VPN (MESSAGES RECENT)"
+315	2020-07-20T16:05:51.129	3	4	S < "* STATUS Divers/VPN (MESSAGES 11 RECENT 0) "
+316	2020-07-20T16:05:51.130	3	4	S < "A023 OK STATUS completed."
+317	2020-07-20T16:05:51.146	3	4	C > "A024 STATUS "Divers/VPN/test inferior" (MESSAGES RECENT)"
+318	2020-07-20T16:05:51.153	3	4	S < "* STATUS "Divers/VPN/test inferior" (MESSAGES 0 RECENT 0) "
+319	2020-07-20T16:05:51.153	3	4	S < "A024 OK STATUS completed."
+320	2020-07-20T16:05:51.154	3	4	C > "A025 STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES RECENT)"
+321	2020-07-20T16:05:51.273	3	4	S < "* STATUS "&AMk-l&AOk-ments envoy&AOk-s" (MESSAGES 3717 RECENT 56) "
+322	2020-07-20T16:05:51.273	3	4	S < "A025 OK STATUS completed."
+323	2020-07-20T16:05:51.274	3	4	C > "A026 STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES RECENT)"
+324	2020-07-20T16:05:51.287	3	4	S < "* STATUS "&AMk-l&AOk-ments supprim&AOk-s" (MESSAGES 248 RECENT 246) "
+325	2020-07-20T16:05:51.288	3	4	S < "A026 OK STATUS completed."
+326	2020-07-20T16:05:51.288	3	4	C > "A027 STATUS "Forum4D " (MESSAGES RECENT)"
+327	2020-07-20T16:05:51.295	3	4	S < "* STATUS "Forum4D " (MESSAGES 14 RECENT 0) "
+328	2020-07-20T16:05:51.295	3	4	S < "A027 OK STATUS completed."
+329	2020-07-20T16:05:51.296	3	4	C > "A028 STATUS Journal (MESSAGES RECENT)"
+330	2020-07-20T16:05:51.302	3	4	S < "* STATUS Journal (MESSAGES 0 RECENT 0) "
+331	2020-07-20T16:05:51.302	3	4	S < "A028 OK STATUS completed."
+332	2020-07-20T16:05:51.304	3	4	C > "A029 STATUS Notes (MESSAGES RECENT)"
+333	2020-07-20T16:05:51.310	3	4	S < "* STATUS Notes (MESSAGES 4 RECENT 0) "
+334	2020-07-20T16:05:51.311	3	4	S < "A029 OK STATUS completed."
+335	2020-07-20T16:05:51.311	3	4	C > "A030 STATUS "Perforce review" (MESSAGES RECENT)"
+336	2020-07-20T16:05:51.327	3	4	S < "* STATUS "Perforce review" (MESSAGES 372 RECENT 25) "
+337	2020-07-20T16:05:51.327	3	4	S < "A030 OK STATUS completed."
+338	2020-07-20T16:05:51.328	3	4	C > "A031 STATUS "Probl&AOg-mes de synchronisation" (MESSAGES RECENT)"
+339	2020-07-20T16:05:51.333	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation" (MESSAGES 0 RECENT 0) "
+340	2020-07-20T16:05:51.333	3	4	S < "A031 OK STATUS completed."
+341	2020-07-20T16:05:51.334	3	4	C > "A032 STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES RECENT)"
+342	2020-07-20T16:05:51.345	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/Conflits" (MESSAGES 178 RECENT 51) "
+343	2020-07-20T16:05:51.346	3	4	S < "A032 OK STATUS completed."
+344	2020-07-20T16:05:51.346	3	4	C > "A033 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES RECENT)"
+345	2020-07-20T16:05:51.353	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs du serveur" (MESSAGES 0 RECENT 0) "
+346	2020-07-20T16:05:51.353	3	4	S < "A033 OK STATUS completed."
+347	2020-07-20T16:05:51.354	3	4	C > "A034 STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES RECENT)"
+348	2020-07-20T16:05:51.360	3	4	S < "* STATUS "Probl&AOg-mes de synchronisation/&AMk-checs locaux" (MESSAGES 0 RECENT 0) "
+349	2020-07-20T16:05:51.360	3	4	S < "A034 OK STATUS completed."
+350	2020-07-20T16:05:51.361	3	4	C > "A035 STATUS Projets (MESSAGES RECENT)"
+351	2020-07-20T16:05:51.384	3	4	S < "* STATUS Projets (MESSAGES 0 RECENT 0) "
+352	2020-07-20T16:05:51.385	3	4	S < "A035 OK STATUS completed."
+353	2020-07-20T16:05:51.386	3	4	C > "A036 STATUS "Projets/4D pack" (MESSAGES RECENT)"
+354	2020-07-20T16:05:51.393	3	4	S < "* STATUS "Projets/4D pack" (MESSAGES 6 RECENT 0) "
+355	2020-07-20T16:05:51.393	3	4	S < "A036 OK STATUS completed."
+356	2020-07-20T16:05:51.394	3	4	C > "A037 STATUS "Projets/4D View - Spread JS" (MESSAGES RECENT)"
+357	2020-07-20T16:05:51.403	3	4	S < "* STATUS "Projets/4D View - Spread JS" (MESSAGES 37 RECENT 1) "
+358	2020-07-20T16:05:51.403	3	4	S < "A037 OK STATUS completed."
+359	2020-07-20T16:05:51.404	3	4	C > "A038 STATUS Projets/Blog (MESSAGES RECENT)"
+360	2020-07-20T16:05:51.411	3	4	S < "* STATUS Projets/Blog (MESSAGES 28 RECENT 0) "
+361	2020-07-20T16:05:51.411	3	4	S < "A038 OK STATUS completed."
+362	2020-07-20T16:05:51.412	3	4	C > "A039 STATUS Projets/Demo (MESSAGES RECENT)"
+363	2020-07-20T16:05:51.419	3	4	S < "* STATUS Projets/Demo (MESSAGES 5 RECENT 0) "
+364	2020-07-20T16:05:51.419	3	4	S < "A039 OK STATUS completed."
+365	2020-07-20T16:05:51.423	3	4	C > "A040 STATUS Projets/Divers (MESSAGES RECENT)"
+366	2020-07-20T16:05:51.426	3	4	S < "* STATUS Projets/Divers (MESSAGES 2 RECENT 2) "
+367	2020-07-20T16:05:51.426	3	4	S < "A040 OK STATUS completed."
+368	2020-07-20T16:05:51.427	3	4	C > "A041 STATUS Projets/Formation (MESSAGES RECENT)"
+369	2020-07-20T16:05:51.434	3	4	S < "* STATUS Projets/Formation (MESSAGES 1 RECENT 1) "
+370	2020-07-20T16:05:51.434	3	4	S < "A041 OK STATUS completed."
+371	2020-07-20T16:05:51.435	3	4	C > "A042 STATUS "Projets/Remote debugger" (MESSAGES RECENT)"
+372	2020-07-20T16:05:51.441	3	4	S < "* STATUS "Projets/Remote debugger" (MESSAGES 1 RECENT 1) "
+373	2020-07-20T16:05:51.442	3	4	S < "A042 OK STATUS completed."
+374	2020-07-20T16:05:51.442	3	4	C > "A043 STATUS "Projets/SMTP - mail" (MESSAGES RECENT)"
+375	2020-07-20T16:05:51.449	3	4	S < "* STATUS "Projets/SMTP - mail" (MESSAGES 7 RECENT 7) "
+376	2020-07-20T16:05:51.449	3	4	S < "A043 OK STATUS completed."
+377	2020-07-20T16:05:51.450	3	4	C > "A044 STATUS "Projets/Standard actions" (MESSAGES RECENT)"
+378	2020-07-20T16:05:51.456	3	4	S < "* STATUS "Projets/Standard actions" (MESSAGES 3 RECENT 3) "
+379	2020-07-20T16:05:51.456	3	4	S < "A044 OK STATUS completed."
+380	2020-07-20T16:05:51.457	3	4	C > "A045 STATUS Projets/Utube (MESSAGES RECENT)"
+381	2020-07-20T16:05:51.464	3	4	S < "* STATUS Projets/Utube (MESSAGES 1 RECENT 1) "
+382	2020-07-20T16:05:51.464	3	4	S < "A045 OK STATUS completed."
+383	2020-07-20T16:05:51.465	3	4	C > "A046 STATUS "Projets/Web server" (MESSAGES RECENT)"
+384	2020-07-20T16:05:51.471	3	4	S < "* STATUS "Projets/Web server" (MESSAGES 1 RECENT 0) "
+385	2020-07-20T16:05:51.472	3	4	S < "A046 OK STATUS completed."
+386	2020-07-20T16:05:51.473	3	4	C > "A047 STATUS redmine (MESSAGES RECENT)"
+387	2020-07-20T16:05:51.519	3	4	S < "* STATUS redmine (MESSAGES 890 RECENT 300) "
+388	2020-07-20T16:05:51.519	3	4	S < "A047 OK STATUS completed."
+389	2020-07-20T16:05:51.520	3	4	C > "A048 STATUS T&AOI-ches (MESSAGES RECENT)"
+390	2020-07-20T16:05:51.528	3	4	S < "* STATUS T&AOI-ches (MESSAGES 0 RECENT 0) "
+391	2020-07-20T16:05:51.528	3	4	S < "A048 OK STATUS completed."
+392	2020-07-20T16:05:51.529	3	4	C > "A049 STATUS Twitter (MESSAGES RECENT)"
+393	2020-07-20T16:05:51.541	3	4	S < "* STATUS Twitter (MESSAGES 198 RECENT 0) "
+394	2020-07-20T16:05:51.541	3	4	S < "A049 OK STATUS completed."
+395	2020-07-20T16:05:51.542	3	4	C > "A050 STATUS WordPress (MESSAGES RECENT)"
+396	2020-07-20T16:05:51.550	3	4	S < "* STATUS WordPress (MESSAGES 9 RECENT 0) "
+397	2020-07-20T16:05:51.550	3	4	S < "A050 OK STATUS completed."
+398	2020-07-20T16:05:52.633	3	4	C > "A051 SELECT INBOX"
+399	2020-07-20T16:05:53.116	3	4	S < "* 17510 EXISTS"
+400	2020-07-20T16:05:53.116	3	4	S < "* 0 RECENT"
+401	2020-07-20T16:05:53.116	3	4	S < "* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)"
+402	2020-07-20T16:05:53.116	3	4	S < "* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags"
+403	2020-07-20T16:05:53.117	3	4	S < "* OK [UIDVALIDITY 14] UIDVALIDITY value"
+404	2020-07-20T16:05:53.117	3	4	S < "* OK [UIDNEXT 38247] The next unique identifier value"
+405	2020-07-20T16:05:53.117	3	4	S < "A051 OK [READ-WRITE] SELECT completed."
+406	2020-07-20T16:05:53.242	3	4	C > "A052 FETCH 17500:17510 (UID INTERNALDATE RFC822.SIZE BODY[])"
+407	2020-07-20T16:05:53.308	3	4	S < "* 17500 FETCH (UID 38236 INTERNALDATE "20-Jul-2020 14:42:53 +0200" RFC822.SIZE 23130 BODY[] {5380}"
+408	2020-07-20T16:05:53.308	3	4	S < Message data (46887 bytes)
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:42:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:42:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id 6mBqOcidHNmX1qPS (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:42:52 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 3909761146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:42:52 +0000 (UTC)
+From: =?utf-8?B?TWljaGFlbCBIw7ZobmUgdmlhIDREIEZvcnVt?= <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Topic: [4D Forum] Var keyword and component class stores[Beta]
+Thread-Index: AQHWXnW0/QMuhQD18UKFU/OqllFgpKkQDguAgAAJ/oCAACp2gIAABZ8A
+Date: Mon, 20 Jul 2020 14:42:52 +0200
+Message-ID: <topic/14778/36581@discuss.4d.com>
+References: <topic/14778@discuss.4d.com> <topic/14778/36578@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1e2e105b19453f1132da552b4c68154c2cfffd6b9de4bb6ab8bc52211053041a>
+In-Reply-To: <topic/14778/36578@discuss.4d.com>
+Reply-To: 4D Forum <x4d+c815f674f3d80fcfc53dda1061bb4cc3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	a0019dce-a132-4add-92f2-08d82caa6b40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <C2F64DA422BE4040B54C678F162C5781@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2hvaG5lLm1pY2hhZWwvNDUvNTcwXzIucG5nXSAgICAgICBIb2huZS5NaWNo
+YWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9ob2huZS5taWNoYWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpUaGF0IG9mIGNvdXJzZSB3b3Jrcy4gQnV0IEkgY2Fubm90IHVzZSB0aGUgbmV3IHZh
+ciBzeW50YXggd2l0aCBjbGFzc2VzIGRlZmluZWQgaW4gdGhlIGNvbXBvbmVudCwgcmlnaHQ/IFNv
+IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uIEkgc3RpbGwgaGF2ZSB0byB3cml0ZToNCg0KQ19PQkpF
+Q1QoJGluc3RhbmNlT2ZDbGFzc0FfSW5fQ29tcG9uZW50QSkNCiRpbnN0YW5jZU9mQ2xhc3NBX0lu
+X0NvbXBvbmVudEE6PWNvbXBvbmVudE1ldGhvZFJldHVybmluZ0NsYXNzU3RvcmUuQ2xhc3NBLm5l
+dygpDQoNCkJ1dCB0aGVuIEkgd2lsbCBsb3NlIHRoZSBiZW5lZml0cyBvZiB0aGUgdmFyIHN5bnRh
+eCBmaWx0ZXJpbmcgdGhlIHN1Z2dlc3Rpb25zIHRvIG9ubHkgaW5jbHVkZSBtZXRob2RzIGFuZCBw
+cm9wZXJ0aWVzIGRlZmluZWQgaW4gQ2xhc3NBLg0KDQpXaGF0IEkgd291bGQgbGlrZSB0byBkbyAo
+aW4gdGhlIGhvc3QgYXBwbGljYXRpb24pIGlzIHRoaXM6DQp2YXIgJGZvcmVjYXN0IDogY29tcG9u
+ZW50TWV0aG9kUmV0dXJuaW5nQ2xhc3NTdG9yZS5DbGFzc0ENCg0Kb3IgbWF5YmUgdGhpczoNCg0K
+dmFyICRmb3JlY2FzdCA6IGNvbXBvbmVudHMuRm9yZWNhc3QuQ2xhc3NBDQoNCldoZW5ldmVyIEkg
+dXNlIHRoZSAkZm9yZWNhc3Qgb2JqZWN0IGluIHRoZSBob3N0IGFwcGxpY2F0aW9uLCBpdCBzaG91
+bGQgc2hvdyB0aGUgc2FtZSBmaWx0ZXJlZCBzdWdnZXN0aW9ucyBhcyBpbiB0aGUgY29tcG9uZW50
+LiBSaWdodCBub3cgaXQgZG9lcyBub3QuIE9yIEkgZG9u4oCZdCBnZXQgdGhlIHBvaW50IG9uIGhv
+dyB0byB1c2UgaXQgY29ycmVjdGx5Lg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+Xw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvdmFyLWtleXdvcmQtYW5k
+LWNvbXBvbmVudC1jbGFzcy1zdG9yZXMvMTQ3NzgvNT4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0
+byByZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkg
+VG8NCltodHRwczovL2F2YXRhcnMuZGlzY291cnNlLm9yZy92NC9sZXR0ZXIvdi9lZDhjNGMvNDUu
+cG5nXSAgICAgICBWYW5lc3NhX1RBTEJPVDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdmFuZXNz
+YV90YWxib3Q+IDREIFN0YWZmDQpKdWx5IDIwDQpBdCB0aGUgbW9tZW50LCB0aGVyZSBpcyBubyBu
+b3Rpb24gb2YgcHJpdmF0ZSwgcHVibGljIG9yIHNoYXJlZCBjbGFzc2VzLiBJZiB5b3Ugd2FudCB0
+aGUgaG9zdCBkYXRhYmFzZSB0byBhY2Nlc3MgdGhlIGNsYXNzIG9mIGEgY29tcG9uZW50LCB5b3Ug
+bXVzdCBwYXNzIHRoZSBDUyBvYmplY3Qgb2YgdGhlIGNvbXBvbmVudCB0byB0aGUgaG9zdCBkYXRh
+YmFzZSB3aXRoIGEgc2hhcmVkIGNvbXBvbmVudCBtZXRob2QuIElmIHlvdSBkb27igJl0IHdhbnQg
+dG8gc2hhcmUgYWxsIGNsYXNzZXMsIHlvdSBjYW4gb25seSBjcmVhdGUgYSBzaOKApg0KX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNz
+LjRkLmNvbS90L3Zhci1rZXl3b3JkLWFuZC1jb21wb25lbnQtY2xhc3Mtc3RvcmVzLzE0Nzc4LzU+
+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcg
+dGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNj
+cmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29t
+L2VtYWlsL3Vuc3Vic2NyaWJlLzFlMmUxMDViMTk0NTNmMTEzMmRhNTUyYjRjNjgxNTRjMmNmZmZk
+NmI5ZGU0YmI2YWI4YmM1MjIxMTA1MzA0MWE+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17501 FETCH (UID 38237 INTERNALDATE "20-Jul-2020 14:57:43 +0200" RFC822.SIZE 23015 BODY[] {5202}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:43 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:42 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id nvQbdoj54awWCo5b (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A1CCC5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:38 +0000 (UTC)
+From: Van Hooreweghe Koen via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Topic: [4D Forum] Mail Transporter html problem[English Community]
+Thread-Index: AQHWXnpW6Dgh+Shh00WXVHEYVcnp66kQHYcAgAALXQCAABkxAIAACiAA
+Date: Mon, 20 Jul 2020 14:57:38 +0200
+Message-ID: <topic/14781/36583@discuss.4d.com>
+References: <topic/14781@discuss.4d.com> <topic/14781/36577@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/0680e921f60d6c1e2b9874f6c4c7b210078cfb4a50edc7d3eba6236e5904d461>
+In-Reply-To: <topic/14781/36577@discuss.4d.com>
+Reply-To: 4D Forum <x4d+89d181b28ab1c182cc67213c2a16ead6@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	ebf26ce2-108d-4509-89d4-08d82cac7da6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6D91EB48FD73C741AEE94ACB917390C9@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Zhbl9ob29yZXdlZ2hlLmtvZW4vNDUvNTYzXzIucG5nXSAgICAgICAgIFZh
+bl9Ib29yZXdlZ2hlLktvZW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Zhbl9ob29yZXdlZ2hl
+LmtvZW4+IFBhcnRuZXJzDQpKdWx5IDIwDQpbaHR0cHM6Ly9kdWIyLmRpc2NvdXJzZS1jZG4uY29t
+L2J1c2luZXNzMjAvdXNlcl9hdmF0YXIvZGlzY3Vzcy40ZC5jb20va2Vpc3VrZV9taXlha28vNDAv
+ODNfMi5wbmddIEtlaXN1a2VfTWl5YWtvOg0KDQpTaW5jZSBpdCBpcyBub3QgcG9zc2libGUgdG8g
+Y2hhbmdlIENvbnRlbnQtKiBoZWFkZXJzLCBJIHRoaW5rIHRoZSBvbmx5IHdheSBhcm91bmQgaXQg
+aXMgdG8gbGltaXQgdGhlIGh0bWwgdG8gc2hvcnRlciBsaW5lcy4NCg0KSGkgS2Vpc3VrZSwNCg0K
+VGhhbmtzIGZvciB5b3VyIHN1Z2dlc3Rpb24uIFRoZSBlYXN5IHdvcmsgYXJvdW5kIHdhcyB0byBp
+bnNlcnQgbGluZSBmZWVkcyBpbiB0aGUgYm9keSBodG1sIGNvZGUgKGEgbG9uZyB0YWJsZSksIHdo
+aWNoIHNvbHZlZCB0aGUgaXNzdWUgZm9yIG1lLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3QvbWFpbC10cmFu
+c3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byBy
+ZXNwb25kLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8N
+CltodHRwczovL2R1YjIuZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9k
+aXNjdXNzLjRkLmNvbS9rZWlzdWtlX21peWFrby80NS84M18yLnBuZ10gICAgICAgS2Vpc3VrZV9N
+aXlha288aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L2tlaXN1a2VfbWl5YWtvPiA0RCBTdGFmZg0K
+SnVseSAyMA0KSSBjb25maXJtIHRoZSBpc3N1ZSB3aXRoIDE3UjYgW+OCueOCr+ODquODvOODs+OC
+t+ODp+ODg+ODiCAyMDIwLTA3LTIwIDIxLjA2LjQ3XTxodHRwczovL2F3czEuZGlzY291cnNlLWNk
+bi5jb20vYnVzaW5lc3MyMC91cGxvYWRzL3g0ZC9vcmlnaW5hbC8yWC9hL2EzMmYxNDYwNjg2MGVk
+ZjBjYWVhNDc1NTAyZjk4NTNkMGFhYjY3ZWIucG5nPiAkaHRtbEJvZHk6PSI8c3Bhbj4iKygieCIq
+OTk0KykrIjwvc3Bhbj4iIGZpeGVkIGluIHYxOCBb44K544Kv44Oq44O844Oz44K344On44OD44OI
+IDIwMjAtMDctMjAgMjEuMDguMTZdPGh0dHBzOi8vYXdzMS5kaXNjb3Vyc2UtY2RuLmNvbS9idXNp
+bmVzczIwL3VwbG9hZHMveDRkL29yaWdpbmFsLzJYLzgvOGU4MDlhODVlNjFlM2FiYWJjMDkyMDVi
+NzI1OTAwMDY3YWQ5NWNhZi5wbmc+IFRoZSBkaWZmZXJlbmNlIGlzIHRoYXQgdGhlIHYxNyBSNiBo
+ZWFkZXIgbG9va3MgbGlrZSBDb250ZW50LVR5cGU6IHRleHQvaHRtbCBidXQgdjE4IGxvb2tzIGxp
+a2UgQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGZvcm1hdD1mbG93ZWQgU2luY2Ug4oCmDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1
+c3MuNGQuY29tL3QvbWFpbC10cmFuc3BvcnRlci1odG1sLXByb2JsZW0vMTQ3ODEvNj4gb3IgcmVw
+bHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJl
+Y2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZy
+b20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwv
+dW5zdWJzY3JpYmUvMDY4MGU5MjFmNjBkNmMxZTJiOTg3NGY2YzRjN2IyMTAwNzhjZmI0YTUwZWRj
+N2QzZWJhNjIzNmU1OTA0ZDQ2MT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17502 FETCH (UID 38238 INTERNALDATE "20-Jul-2020 14:57:53 +0200" RFC822.SIZE 21586 BODY[] {4490}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 14:57:53 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 14:57:52 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id BS3gwrXYcEyrSM8j (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:57:23 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A155D61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 12:57:23 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Topic: [4D Forum] Lire un fichier 4D View Pro dans un champ objet
+ directement?[French Community]
+Thread-Index: AQHWXpVhc8QFXnbaYE+jkOv/tZlN/w==
+Date: Mon, 20 Jul 2020 14:57:23 +0200
+Message-ID: <topic/14492/36582@discuss.4d.com>
+References: <topic/14492@discuss.4d.com> <topic/14492/36553@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/9129be58bfdffded5fed9439f1d596c074085d82b0744aecf200681b6f3a95ae>
+In-Reply-To: <topic/14492/36553@discuss.4d.com>
+Reply-To: 4D Forum <x4d+f78dbffd1d21c243a12cabecf04ad392@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bc92d6ad-d02f-47e3-ffd0-08d82cac83b8
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F7EA556A6F87B047B247551FAACB85D5@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpNZXJjaSBwb3VyIGNldHRlIHNvbHV0aW9uIGZvbmN0aW9ubmVsbGUuDQpDZXMgMiBz
+b2x1dGlvbnMgbcOpcml0ZXJhaWVudCB2cmFpbWVudCBkZSBmaWd1cmVyIGVuIGJvbm5lIHBsYWNl
+IGRhbnMgbGEgZG9jIGRlIDREIFZpZXcgUHJvICENCkVsbGVzIHNvbnQgdHLDqHMgc2ltcGxlcywg
+bWFpcyBjZSBu4oCZZXN0IHBhcyBpbnR1aXRpZiBk4oCZb3DDqXJlciBkZSBjZXR0ZSBmYcOnb24u
+DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBz
+Oi8vZGlzY3Vzcy40ZC5jb20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1j
+aGFtcC1vYmpldC1kaXJlY3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRv
+IHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpJbiBSZXBseSBU
+bw0KW2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9mL2E4YjMxOS80NS5w
+bmddICAgICAgIEZhYnJpY2VfTWFpbmd1ZW5lPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9mYWJy
+aWNlX21haW5ndWVuZT4gNEQgU3RhZmYNCkp1bHkgMjANClBvdXIgZW5yZWdpc3RyZXIgZGFucyB1
+biBmaWNoaWVyIHVuIGRvY3VtZW50IDREIFZpZXcgcHJvIHN0b2Nrw6kgZW4gYmFzZTogJFZQb2Jq
+ZWN0Oj1teVRhYmxlLm15VlBGaWVsZCAkZG9jOj1KU09OIFN0cmluZ2lmeSgkVlBvYmplY3QpIFRl
+eHQgdG8gZG9jdW1lbnQoImM6XHRtcFx0ZXN0Y2xpZW50LjR2cCI6JGRvYykNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9saXJlLXVuLWZpY2hpZXItNGQtdmlldy1wcm8tZGFucy11bi1jaGFtcC1vYmpldC1kaXJl
+Y3RlbWVudC8xNDQ5Mi81PiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllv
+dSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9k
+ZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85MTI5YmU1OGJmZGZmZGVkNWZlZDk0
+MzlmMWQ1OTZjMDc0MDg1ZDgyYjA3NDRhZWNmMjAwNjgxYjZmM2E5NWFlPi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17503 FETCH (UID 38239 INTERNALDATE "20-Jul-2020 15:10:10 +0200" RFC822.SIZE 18514 BODY[] {3436}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:10:10 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id gbbfsD6zpjh17HlA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:10:10 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 0623861146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:10:10 +0000 (UTC)
+From: 4D Quality Assurance via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6Eg==
+Date: Mon, 20 Jul 2020 15:10:10 +0200
+Message-ID: <topic/14663/36584@discuss.4d.com>
+References: <topic/14663@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/2ed6a7aa855d70da03f5ebb38fb02349c4fbd255edd80e8ac96b8700bf18e386>
+In-Reply-To: <topic/14663@discuss.4d.com>
+Reply-To: 4D Forum <x4d+006f50e09fb7ab0bb7c172c0238adb2e@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	36f01c48-ebd5-407a-70f7-08d82cae3b7c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <AEDD52732BD02D4CAD145DC29AC1BFBD@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5wbmddICA0RFF1YWxpdHlB
+c3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0eWFzc3VyYW5jZT4gNEQg
+U3RhZmYNCkp1bHkgMjANCg0KVGhlIFN0YXR1cyBvZiB0aGlzIGJ1ZyBnb2VzIGZyb20g4oCcKFF1
+ZXVlZCnigJ0gdG8g4oCcKENsb3NlZCnigJ0NCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS90L2FjaTAxMDEwMDYt
+dGhpcy1jb21tYW5kLW5vdC1jb3JyZWN0LWluLWRlYnVnZ2VyLzE0NjYzLzI+IG9yIHJlcGx5IHRv
+IHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNl
+IHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2RlLg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRo
+ZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczovL2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vi
+c2NyaWJlLzJlZDZhN2FhODU1ZDcwZGEwM2Y1ZWJiMzhmYjAyMzQ5YzRmYmQyNTVlZGQ4MGU4YWM5
+NmI4NzAwYmYxOGUzODY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17504 FETCH (UID 38240 INTERNALDATE "20-Jul-2020 15:12:08 +0200" RFC822.SIZE 14018 BODY[] {3184}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:12:08 +0200
+Received: from vps329174.ovh.net (144.ip-213-32-23.eu [213.32.23.144]) by barracuda.waycom.net with ESMTP id cCPrHItgE8FCP4Rg for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+Received: by vps329174.ovh.net (Postfix, from userid 33)
+	id 5E9503F52E; Mon, 20 Jul 2020 15:12:08 +0200 (CEST)
+From: WordPress <wordpress@blog.4d.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Topic: [4D Blog] Post Status Changed for "Access form object values by
+ programming"
+Thread-Index: AQHWXpdfXLJl2Z72C0ixHcZSbDPNcg==
+Date: Mon, 20 Jul 2020 15:12:08 +0200
+Message-ID: <59704b810d68d8be5c418f1fe2fdfa6a@blog.4d.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	167e5328-88fe-4d14-4a54-08d82cae81d6
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <FCE6CAA19D140746A8E629C01EDE63B1@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+U3RhdHVzIHdhcyBjaGFuZ2VkIGZvciBQb3N0ICMyNTA0MSAiQWNjZXNzIGZvcm0gb2JqZWN0IHZh
+bHVlcyBieSBwcm9ncmFtbWluZyIgYnkgU3RhY2llIExvdmluZyAoc3RhY2llLmxvdmluZ0A0ZC5j
+b20pDQpUaGlzIGFjdGlvbiB3YXMgdGFrZW4gb24gSnVseSAyMCwgMjAyMCBhdCAxOjEyIHBtIA0K
+DQpFbmdsaXNoIGNoZWNrID0+IFJlYWR5IFRvIFNjaGVkdWxlDQoNCi0tLS0tLS0tLS0tLS0tLS0t
+LS0tDQoNCj09IFBvc3QgRGV0YWlscyA9PQ0KVGl0bGU6IEFjY2VzcyBmb3JtIG9iamVjdCB2YWx1
+ZXMgYnkgcHJvZ3JhbW1pbmcNCkF1dGhvcjogRmFicmljZSBNYWluZ3VlbsOpIChmYWJyaWNlLm1h
+aW5ndWVuZUA0ZC5jb20pDQoNCj09IEFjdGlvbnMgPT0NCkFkZCBlZGl0b3JpYWwgY29tbWVudDog
+aHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1hZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1l
+ZGl0I2VkaXRvcmlhbGNvbW1lbnRzL2FkZA0KRWRpdDogaHR0cHM6Ly9ibG9nLjRkLmNvbS93cC1h
+ZG1pbi9wb3N0LnBocD9wb3N0PTI1MDQxJmFjdGlvbj1lZGl0DQpWaWV3OiBodHRwczovL2Jsb2cu
+NGQuY29tLz9wPTI1MDQxJnByZXZpZXc9dHJ1ZQ0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLQ0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBlbWFpbCBiZWNhdXNlIHlvdSBhcmUgc3Vic2NyaWJlZCB0byAi
+QWNjZXNzIGZvcm0gb2JqZWN0IHZhbHVlcyBieSBwcm9ncmFtbWluZyIuDQpUaGlzIGVtYWlsIHdh
+cyBzZW50IE1vbiwgMjAgSnVsIDIwMjAgMTM6MTI6MDggKzAwMDAuDQogDQo0RCBCbG9nIHwgaHR0
+cHM6Ly9ibG9nLjRkLmNvbSB8IGh0dHBzOi8vYmxvZy40ZC5jb20vd3AtYWRtaW4vDQoNCg==
+ FLAGS (\Seen))
+* 17505 FETCH (UID 38241 INTERNALDATE "20-Jul-2020 15:27:58 +0200" RFC822.SIZE 20574 BODY[] {4035}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:27:58 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:27:57 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id EmYgjIE6Gkj9oPZN (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:27:57 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 2C3465CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:27:57 +0000 (UTC)
+From: Christian Sakowski via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] ACI0101006 "This"-command not correct in Debugger[Beta]
+Thread-Topic: [4D Forum] ACI0101006 "This"-command not correct in
+ Debugger[Beta]
+Thread-Index: AQHWXpcZX+v+mX5yFkyA7s42WAW6EqkQVHOA
+Date: Mon, 20 Jul 2020 15:27:57 +0200
+Message-ID: <topic/14663/36585@discuss.4d.com>
+References: <topic/14663@discuss.4d.com> <topic/14663/36584@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/37bf6af016e3fbe29e4af48a84a68fc8a25a5f0c496cf3a2f7c917d2acd97eb5>
+In-Reply-To: <topic/14663/36584@discuss.4d.com>
+Reply-To: 4D Forum <x4d+ed1888811ba00f8e96e6f9d9a4ba2e12@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	bcf4e89c-a21e-4878-8d42-08d82cb0b78a
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <8260E69095EAD34DBDC502721432DD74@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3Nha293c2tpLmNocmlzdGlhbi80NS80OTNfMi5wbmddICBTYWtvd3NraS5D
+aHJpc3RpYW48aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3Nha293c2tpLmNocmlzdGlhbj4gUGFy
+dG5lcnMNCkp1bHkgMjANCg0KRml4ZWQ/DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9hY2kwMTAxMDA2LXRo
+aXMtY29tbWFuZC1ub3QtY29ycmVjdC1pbi1kZWJ1Z2dlci8xNDY2My8zPiBvciByZXBseSB0byB0
+aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQpJbiBSZXBseSBUbw0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIw
+L3VzZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tLzRkcXVhbGl0eWFzc3VyYW5jZS80NS80NDVfMi5w
+bmddICA0RFF1YWxpdHlBc3N1cmFuY2U8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91LzRkcXVhbGl0
+eWFzc3VyYW5jZT4gNEQgU3RhZmYNCkp1bHkgMjANClRoZSBTdGF0dXMgb2YgdGhpcyBidWcgZ29l
+cyBmcm9tIOKAnChRdWV1ZWQp4oCdIHRvIOKAnChDbG9zZWQp4oCdDQpfX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczovL2Rpc2N1c3MuNGQuY29tL3Qv
+YWNpMDEwMTAwNi10aGlzLWNvbW1hbmQtbm90LWNvcnJlY3QtaW4tZGVidWdnZXIvMTQ2NjMvMz4g
+b3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0
+aGlzIGJlY2F1c2UgeW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2Ny
+aWJlIGZyb20gdGhlc2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+ZW1haWwvdW5zdWJzY3JpYmUvMzdiZjZhZjAxNmUzZmJlMjllNGFmNDhhODRhNjhmYzhhMjVhNWYw
+YzQ5NmNmM2EyZjdjOTE3ZDJhY2Q5N2ViNT4uDQoNCg0K
+ FLAGS (\Seen))
+* 17506 FETCH (UID 38242 INTERNALDATE "20-Jul-2020 15:30:36 +0200" RFC822.SIZE 23761 BODY[] {5404}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:30:36 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:30:35 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id GRrLJZqWL3xQfXvf (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:30:34 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:1::2eb:a17a:d706])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id A24FA6109E
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:30:34 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Topic:
+	=?utf-8?B?WzREIEZvcnVtXSBZb3Ugbm8gbG9uZ2VyIG5lZWQgYSA0RCBWaWV3IFBybyBs?=
+ =?utf-8?B?aWNlbnNlIHRvIHVzZSBwcm8gbGlzdCBib3ggZmVhdHVyZXMuIFRoZXnigJly?=
+ =?utf-8?Q?e_now_FREE![French_Community]?=
+Thread-Index: AQHWXFRsLRUCj4SXqUyZdlT+yG1VrKkNKAMAgAAJxICAABQMAIAAD0gAgAMEmQA=
+Date: Mon, 20 Jul 2020 15:30:34 +0200
+Message-ID: <topic/14760/36586@discuss.4d.com>
+References: <topic/14760@discuss.4d.com> <topic/14760/36478@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/e53b5a5ee508b850631edff5f0031f0a09fada06115f00bbcae3950299934559>
+In-Reply-To: <topic/14760/36478@discuss.4d.com>
+Reply-To: 4D Forum <x4d+62c6b3a88769b182a542b90b300c3f2f@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	6ed1f238-32bf-42d0-f8e0-08d82cb115c2
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <F3556B2DE9199A4FBAABF5A125E3E06D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpFbiBtw6ptZSB0ZW1wcywgNEQgVmlldyBQcm8gbuKAmWEgdnJhaW1lbnQgcGx1cyBy
+aWVuIMOgIHZvaXIgYXZlYyBsYSBwYXJ0aWUgbGlzdGJveCBtYWludGVuYW50IChkw6lqw6AgcXXi
+gJlhdmFudCBj4oCZw6l0YWl0IGRpc2N1dGFibGUpLiBFdCBwb3VyIHV0aWxpc2VyIGNldHRlIGZv
+bmN0aW9ubmFsaXTDqSwgY+KAmWVzdCBkZXMgY2FzIFRSRVMgcGFydGljdWxpZXJzIGV0IGplIG5l
+IGfDqHJlIHBhcyBwbHVzIGTigJl1bmUgMTAwIGRlIGxpZ25lcyBkYW5zIGNlIHR5cGUgZGUgbGlz
+dGJveDsgZG9uYywgamUgbmUgcGVuc2UgcGFzIHF1ZSBjZWxhIHNvaXQgTEEgcsOpdm9sdXRpb24g
+cXVlIHZvdXMgZXNww6lyZXouDQoNClB1aXNxdWUgNEQgVmlldyBQcm8gbuKAmWVzdCBwbHVzIHVu
+IHBsdWdpbiBldCBlc3QgaW50w6lncsOpIFs6cm9sbF9leWVzOl0gIGRhbnMgNEQgY2V0dGUgZMOp
+Y2lzaW9uIGV0IHBsdXMgcXVlIG5vcm1hbGUuIE1haW50ZW5hbnQgY29tbWUgZWxsZSDDqXRhaXQg
+c8OpcGFyw6llIGRlIG1hbmnDqHJlIGJpZW4gcHLDqWNpc2UgcGFyIHVuZSBnZXN0aW9uIGRlIGxp
+Y2VuY2UgY+KAmWVzdCBxdeKAmWlsIGRvaXQgeSBhdm9pciB1biBsb3VwIHF1ZWxxdWUgcGFydOKA
+pg0KDQpTaSDDp2EgcGV1dCBhaWRlIMOgIGZhaXJlIMOpdm9sdWVyIGxhIHBhcnRpZSBsaXN0Ym94
+IHRhbnQgbWlldXguDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0
+IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC95b3Utbm8tbG9uZ2VyLW5lZWQtYS00ZC12
+aWV3LXByby1saWNlbnNlLXRvLXVzZS1wcm8tbGlzdC1ib3gtZmVhdHVyZXMtdGhleS1yZS1ub3ct
+ZnJlZS8xNDc2MC8xMD4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIu
+ZGlzY291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS9k
+ZV9tb250YXJkLmFybmF1ZC80NS80NzFfMi5wbmddICAgZGVfTU9OVEFSRC5Bcm5hdWQ8aHR0cHM6
+Ly9kaXNjdXNzLjRkLmNvbS91L2RlX21vbnRhcmQuYXJuYXVkPiBQYXJ0bmVycw0KSnVseSAxOA0K
+Q+KAmWVzdCBwYXMgZGUgc2EgZmF1dGUgc+KAmWlsIGdsaXNzZSwgNEQgYSBzYXZvbm7DqSBsYSBw
+ZW50ZSA6cm9mbDogW0NhcHR1cmUgZOKAmcOpY3JhbiAyMDIwLTA3LTE4IMOgIDE3LjA3LjQ2XQ0K
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KVmlzaXQgVG9waWM8aHR0cHM6Ly9k
+aXNjdXNzLjRkLmNvbS90L3lvdS1uby1sb25nZXItbmVlZC1hLTRkLXZpZXctcHJvLWxpY2Vuc2Ut
+dG8tdXNlLXByby1saXN0LWJveC1mZWF0dXJlcy10aGV5LXJlLW5vdy1mcmVlLzE0NzYwLzEwPiBv
+ciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoNCllvdSBhcmUgcmVjZWl2aW5nIHRo
+aXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3QgbW9kZS4NCg0KVG8gdW5zdWJzY3Jp
+YmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS9l
+bWFpbC91bnN1YnNjcmliZS9lNTNiNWE1ZWU1MDhiODUwNjMxZWRmZjVmMDAzMWYwYTA5ZmFkYTA2
+MTE1ZjAwYmJjYWUzOTUwMjk5OTM0NTU5Pi4NCg0KDQo=
+ FLAGS (\Seen))
+* 17507 FETCH (UID 38243 INTERNALDATE "20-Jul-2020 15:41:30 +0200" RFC822.SIZE 18223 BODY[] {3402}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:41:30 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id 1QhtBp5Gk0Ty2HJA (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:41:29 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id A7CE94B7
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:41:29 +0000 (UTC)
+From: Arnaud de Montard via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiA==
+Date: Mon, 20 Jul 2020 15:41:29 +0200
+Message-ID: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/39302ba8b6c9ea9259e7e914054115cfd8bf3265f2b108b2372e09cd2a6d638d>
+Reply-To: 4D Forum <x4d+f1b350403a8e05351d3eed434355723a@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	88391749-d344-458d-244d-08d82cb29bde
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <486878E0CAD9E740A4892FBA72091A96@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL2RlX21vbnRhcmQuYXJuYXVkLzQ1LzQ3MV8yLnBuZ10gICBkZV9NT05UQVJE
+LkFybmF1ZDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvZGVfbW9udGFyZC5hcm5hdWQ+IFBhcnRu
+ZXJzDQpKdWx5IDIwDQoNCkrigJlhaSBiZWF1IHRlc3RlciBldCByZSB0ZXN0ZXIsIGplIG5lIHZv
+aXMgcGFzIGxhIG1vaW5kcmUgYW3DqWxpb3JhdGlvbiBkZSBwZXJmb3JtYW5jZSBhcHBvcnTDqWUg
+cGFyIGNldHRlIGNvbW1hbmRlIDogbMOpZ2VuZGUgdXJiYWluZSA/DQoNCl9fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20v
+dC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMT4gb3IgcmVwbHkgdG8gdGhp
+cyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2UgeW91
+IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhlc2Ug
+ZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJzY3Jp
+YmUvMzkzMDJiYThiNmM5ZWE5MjU5ZTdlOTE0MDU0MTE1Y2ZkOGJmMzI2NWYyYjEwOGIyMzcyZTA5
+Y2QyYTZkNjM4ZD4uDQoNCg0K
+ FLAGS (\Seen))
+* 17508 FETCH (UID 38244 INTERNALDATE "20-Jul-2020 15:43:39 +0200" RFC822.SIZE 19993 BODY[] {3750}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:43:39 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:43:38 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id CBte01E8Y2rH8gxu (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:43:38 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:5::259:de65:d819])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id 6947661331
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:43:38 +0000 (UTC)
+From: Tom Benedict via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] Project Mode Component[English Community]
+Thread-Topic: [4D Forum] Project Mode Component[English Community]
+Thread-Index: AQHWXoON0mpwAbr7HUmBi4R1uL6AhakQWPwA
+Date: Mon, 20 Jul 2020 15:43:38 +0200
+Message-ID: <topic/14786/36588@discuss.4d.com>
+References: <topic/14786@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/62bacf73c0f11142a7829c65a2911c22922cefbd79d0a2ba9557880b707073ff>
+In-Reply-To: <topic/14786@discuss.4d.com>
+Reply-To: 4D Forum <x4d+e52a161a41c48a2e39f58e679b4e81ea@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	5b9cc318-f3aa-4628-842c-08d82cb2e87c
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <855F231BC5A48B4BAD072981D747968D@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci90L2E1ODdmNi80NS5wbmdd
+ICAgICAgIFRvbV9CZW5lZGljdDxodHRwczovL2Rpc2N1c3MuNGQuY29tL3UvdG9tX2JlbmVkaWN0
+Pg0KSnVseSAyMA0KW2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3Vz
+ZXJfYXZhdGFyL2Rpc2N1c3MuNGQuY29tL2dyYWhhbV9sYW5nbGV5LzQwLzE1NThfMi5wbmddIEdy
+YWhhbV9MYW5nbGV5Og0KDQpXaGF0IGlzIHRoZSBjdXJyZW50IGJlc3QgcHJhY3RpY2UgdG8gYnVp
+bGQgQ29tcG9uZW50cyBpbiBQcm9qZWN0IE1vZGU/DQoNCkkgZG9u4oCZdCBoYXZlIGFueSBleHBl
+cmllbmNlIGluIDREIFByb2plY3QgTW9kZSwgYnV0IEkgd291bGQgZXhwZWN0IHRoYXQgQ29tcG9u
+ZW50IGNvZGUgc2hvdWxkIGJlIG1hbmFnZWQgYnkgdGhlIHNhbWUgdG9vbCB1c2VkIHRvIG1hbmFn
+ZSB0aGUgcmVzdCBvZiB0aGUgc291cmNlIGNvZGUuIChHSXQsIENWUywgU1ZOLCBQZXJmb3JjZSwg
+ZXRjKS4NCg0KVG9tIEJlbmVkaWN0DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+DQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC9wcm9qZWN0LW1vZGUtY29t
+cG9uZW50LzE0Nzg2LzM+IG9yIHJlcGx5IHRvIHRoaXMgZW1haWwgdG8gcmVzcG9uZC4NCg0KWW91
+IGFyZSByZWNlaXZpbmcgdGhpcyBiZWNhdXNlIHlvdSBlbmFibGVkIG1haWxpbmcgbGlzdCBtb2Rl
+Lg0KDQpUbyB1bnN1YnNjcmliZSBmcm9tIHRoZXNlIGVtYWlscywgY2xpY2sgaGVyZTxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL2VtYWlsL3Vuc3Vic2NyaWJlLzYyYmFjZjczYzBmMTExNDJhNzgyOWM2
+NWEyOTExYzIyOTIyY2VmYmQ3OWQwYTJiYTk1NTc4ODBiNzA3MDczZmY+Lg0KDQoNCg==
+ FLAGS (\Seen))
+* 17509 FETCH (UID 38245 INTERNALDATE "20-Jul-2020 15:49:32 +0200" RFC822.SIZE 18996 BODY[] {3577}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) by
+ EXCH16.ad2.4d.com (2002:c2b1:2355::c2b1:2355) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from barracuda.waycom.net (195.214.240.154) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 15:49:32 +0200
+Received: from mx-out-01b.dub2.discourse.cloud (mx-out-01b.dub2.discourse.cloud [184.104.202.154]) by barracuda.waycom.net with ESMTP id yge8IER8hpoVgUam (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 15:49:32 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:3::25b:1b9d:93d0])
+	by mx-out-01b.dub2.discourse.cloud (Postfix) with ESMTP id EB0DA61146
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 13:49:31 +0000 (UTC)
+From: Manuel PIQUET via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Topic: [4D Forum] FIXER LIMITE RECHERCHE(1) : utile?[French Community]
+Thread-Index: AQHWXpt5DoMVKUrmUkqg3eYIqxAbiKkQWnGA
+Date: Mon, 20 Jul 2020 15:49:31 +0200
+Message-ID: <topic/14789/36589@discuss.4d.com>
+References: <topic/14789@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/1a84b8e1bd8366e65e1b9760e4526fbaa549a9d6b0bb613fc42428e926eee54f>
+In-Reply-To: <topic/14789@discuss.4d.com>
+Reply-To: 4D Forum <x4d+5fe8e317fd52b8500a151dde786a1ec3@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	df4785ec-b61a-4252-288a-08d82cb3bb40
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <66E54A2B1590974C98B9B41EBBBDAEAA@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vZHViMi5kaXNjb3Vyc2UtY2RuLmNvbS9idXNpbmVzczIwL3VzZXJfYXZhdGFyL2Rp
+c2N1c3MuNGQuY29tL3BpcXVldC5tYW51ZWwvNDUvNDc1XzIucG5nXSAgICAgICBQSVFVRVQuTWFu
+dWVsPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9waXF1ZXQubWFudWVsPiBQYXJ0bmVycw0KSnVs
+eSAyMA0KDQpDb21tZSBjZWxhIGplIGRpcmFpcyBxdWUgcG91ciB1bmUgcmVjaGVyY2hlIHPDqXF1
+ZW50aWVsbGUgKHRyw6hzIGxvbmd1ZSkgb3VpLCBtYWlzIGRhbnMgbGVzIGF1dHJlcyBjYXMsIGVz
+dC1jZSBiaWVuIGfDqXLDqSA/IEVuIHBsdXMsIGF2ZWMgT1JEQSwgbGUgbXVsdGl0aHJlYWQsIGV0
+IGxlcyBTU0QsIGzigJl1dGlsaXTDqSBkb2l0IHPigJlhbW9pbmRyaXIuDQoNCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGljPGh0dHBzOi8vZGlzY3Vzcy40ZC5j
+b20vdC9maXhlci1saW1pdGUtcmVjaGVyY2hlLTEtdXRpbGUvMTQ3ODkvMj4gb3IgcmVwbHkgdG8g
+dGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGJlY2F1c2Ug
+eW91IGVuYWJsZWQgbWFpbGluZyBsaXN0IG1vZGUuDQoNClRvIHVuc3Vic2NyaWJlIGZyb20gdGhl
+c2UgZW1haWxzLCBjbGljayBoZXJlPGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vZW1haWwvdW5zdWJz
+Y3JpYmUvMWE4NGI4ZTFiZDgzNjZlNjVlMWI5NzYwZTQ1MjZmYmFhNTQ5YTlkNmIwYmI2MTNmYzQy
+NDI4ZTkyNmVlZTU0Zj4uDQoNCg0K
+ FLAGS (\Seen))
+* 17510 FETCH (UID 38246 INTERNALDATE "20-Jul-2020 16:02:17 +0200" RFC822.SIZE 20143 BODY[] {3814}
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5 via Mailbox Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) by
+ EXCH16.ad2.4d.com (2002:c2b1:2354::c2b1:2354) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.1713.5; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from barracuda.waycom.net (195.214.240.145) by exchange.4d.com
+ (194.177.35.84) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.1713.5 via
+ Frontend Transport; Mon, 20 Jul 2020 16:02:17 +0200
+Received: from mx-out-01a.dub2.discourse.cloud (mx-out-01a.dub2.discourse.cloud [184.104.202.153]) by barracuda.waycom.net with ESMTP id RLBRt1YY6Mu7XBvJ (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 16:02:16 +0200 (CEST)
+Received: from localhost.localdomain (unknown [IPv6:2001:470:ca:9::296:1dc1:16d0])
+	by mx-out-01a.dub2.discourse.cloud (Postfix) with ESMTP id 271BF5CE
+	for <fabrice.mainguene@4d.com>; Mon, 20 Jul 2020 14:02:16 +0000 (UTC)
+From: mikey via 4D Forum <x4d@discoursemail.com>
+To: =?utf-8?B?RmFicmljZSBNYWluZ3VlbsOp?= <Fabrice.Mainguene@4d.com>
+Subject: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Topic: [4D Forum] 4D v18 R4 Beta: The Full List of Features[Beta]
+Thread-Index: AQHWXG9/0VWEDXFnkEG30hXyKasy/qkNNOoAgAABbwCAAywAAA==
+Date: Mon, 20 Jul 2020 16:02:16 +0200
+Message-ID: <topic/14623/36590@discuss.4d.com>
+References: <topic/14623@discuss.4d.com> <topic/14623/36470@discuss.4d.com>
+List-Unsubscribe:
+	<https://discuss.4d.com/email/unsubscribe/954da57dbc8f387b2e1028a495a3705676cb1fa071878af8f5913728fcd7a7e8>
+In-Reply-To: <topic/14623/36470@discuss.4d.com>
+Reply-To: 4D Forum <x4d+dd5287bf45f49ec9bb6713ff3a23ef65@discoursemail.com>
+Content-Language: fr-FR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EXCH16.ad2.4d.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Organization-Network-Message-Id:
+	956ac6b5-4e2e-4dfe-ef26-08d82cb58343
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <6610ED076FDAD7469519D30FA6CDC916@4d.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+W2h0dHBzOi8vYXZhdGFycy5kaXNjb3Vyc2Uub3JnL3Y0L2xldHRlci9tLzQzOWQ1ZS80NS5wbmdd
+ICAgICAgIG1pa2V5PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdS9taWtleT4gUGFydG5lcnMNCkp1
+bHkgMjANCg0KaWYgdGhlcmUgd2FzIGV2ZXIgYSByZWFzb24gdG8gcmVtb3ZlIHRva2Vuc+KApg0K
+DQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpWaXNpdCBUb3BpYzxodHRwczov
+L2Rpc2N1c3MuNGQuY29tL3QvNGQtdjE4LXI0LWJldGEtdGhlLWZ1bGwtbGlzdC1vZi1mZWF0dXJl
+cy8xNDYyMy8xMz4gb3IgcmVwbHkgdG8gdGhpcyBlbWFpbCB0byByZXNwb25kLg0KDQpfX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fXw0KSW4gUmVwbHkgVG8NCltodHRwczovL2R1YjIuZGlz
+Y291cnNlLWNkbi5jb20vYnVzaW5lc3MyMC91c2VyX2F2YXRhci9kaXNjdXNzLjRkLmNvbS92ZGwv
+NDUvOV8yLnBuZ10gICB2ZGw8aHR0cHM6Ly9kaXNjdXNzLjRkLmNvbS91L3ZkbD4gNEQgU3RhZmYN
+Ckp1bHkgMTgNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNClZpc2l0IFRvcGlj
+PGh0dHBzOi8vZGlzY3Vzcy40ZC5jb20vdC80ZC12MTgtcjQtYmV0YS10aGUtZnVsbC1saXN0LW9m
+LWZlYXR1cmVzLzE0NjIzLzEzPiBvciByZXBseSB0byB0aGlzIGVtYWlsIHRvIHJlc3BvbmQuDQoN
+CllvdSBhcmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3UgZW5hYmxlZCBtYWlsaW5nIGxpc3Qg
+bW9kZS4NCg0KVG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVzZSBlbWFpbHMsIGNsaWNrIGhlcmU8aHR0
+cHM6Ly9kaXNjdXNzLjRkLmNvbS9lbWFpbC91bnN1YnNjcmliZS85NTRkYTU3ZGJjOGYzODdiMmUx
+MDI4YTQ5NWEzNzA1Njc2Y2IxZmEwNzE4NzhhZjhmNTkxMzcyOGZjZDdhN2U4Pi4NCg0KDQo=
+ FLAGS (\Seen))
+A052 OK FETCH completed.
+
+409	2020-07-20T16:06:23.284	3	4	C > "A053 CLOSE"
+410	2020-07-20T16:06:23.288	3	4	S < "A053 OK CLOSE completed."
+411	2020-07-20T16:06:23.288	3	4	C > "A054 LOGOUT"
+412	2020-07-20T16:06:23.291	3	4	S < "* BYE Microsoft Exchange Server 2016 IMAP4 server signing off."
+413	2020-07-20T16:06:23.291	3	4	### IMAP Connection closed

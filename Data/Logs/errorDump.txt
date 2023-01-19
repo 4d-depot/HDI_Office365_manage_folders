@@ -1,0 +1,32 @@
+﻿Erreur lors de l’exécution de la méthode "Folders.createList" à la ligne 43
+
+Les arguments de cette opération ne sont pas compatibles.
+
+Error code: 15 (4DRT)
+Les arguments de cette opération ne sont pas compatibles.
+component: '4DRT'
+task -15, name: 'getfolders'
+ explore
+ do_proc
+ calcul_subanalyse
+ bonarg
+ calcul_subexpress
+ subvar
+ xdo_oper
+ syntax
+
+Call chain:
+[
+	{
+		"type": "classFunction",
+		"name": "Folders.createList",
+		"line": 35,
+		"database": "HDI_Office365_get_mails"
+	},
+	{
+		"type": "projectMethod",
+		"name": "GetFolders",
+		"line": 6,
+		"database": "HDI_Office365_get_mails"
+	}
+]
