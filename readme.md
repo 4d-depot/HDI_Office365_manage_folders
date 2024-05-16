@@ -1,6 +1,6 @@
 # HDI_Office365_manage_folders 
 
-Manage mails through the Microsoft GRAPH API (4D v20) 
+Manage mail folders through the Microsoft GRAPH API (4D v20) 
 
 Find more information on the [blog post](https://blog.4d.com/microsoft-365-create-delete-and-rename-mail-folders-with-the-microsoft-graph-api/).
 
